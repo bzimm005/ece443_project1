@@ -1,1 +1,6 @@
-0
+5
+~E 1 "../src/Half Adder.vhd" 16 Half_Adder
+~A 1 "../src/Half Adder.vhd" 23 Behavioral
+~E 1 "../src/TestBench/half_adder_TB.vhd" 8 half_adder_tb
+~A 1 "../src/TestBench/half_adder_TB.vhd" 11 TB_ARCHITECTURE
+~C 1 "../src/TestBench/half_adder_TB.vhd" 76 testbench_for_half_adder

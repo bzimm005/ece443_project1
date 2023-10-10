@@ -1,1 +1,45 @@
+timestamp=1696964983939
 
+[~A]
+ModifyID=5
+Version=74
+
+[~MFT]
+0=4|0ALU.mgf|4263|509
+1=4|1ALU.mgf|4787|2635
+3=2|3ALU.mgf|204|0
+
+[half_adder]
+A/behavioral=A/Behavioral 21|../src/Half Adder.vhd|23|1*817
+BinI32/behavioral=3*0
+I=0*573
+I/behavioral=I/Behavioral 0*1155
+M=11|0|ve8|1696963907629|../src/Half Adder.vhd|0*193*0xb1386474f0bc6dd22af7fb978129634ad076156f|0*488*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|ve8|1696963950884|../src/Half Adder.vhd|0*858*0x4b9b5a6f0630db72fa1c978801ed52813df333be|0*1056*0x20116f55b147878295aeff36dce7fc50
+R=../src/Half Adder.vhd|16
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c2d3eca8a20f00870e78216cf7d163c0be
+Version/behavioral=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff49efd2b40a0b64fd3c799b28563d46d6d
+
+[half_adder_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/half_adder_TB.vhd|11|1*3452
+BinI32/tb_architecture=3*204
+I=0*1942
+I/tb_architecture=I/TB_ARCHITECTURE 0*3924
+M=11|0|ve8|1696964249499|../src/TestBench/half_adder_TB.vhd|0*1583*0x634e83ae3a1e3285632a17f3e7a2d006abf1762c|0*1841*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|ve8|1696964983926|../src/TestBench/half_adder_TB.vhd|0*2230*0xb389764af14a7428e6cc8bf3bfd818971ac0ed1f|0*2857*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/half_adder_TB.vhd|8
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|16eaafcb5e1fe12ed7f5555c2b76b6cb369d343d60f70d7997228d8bb13d00837433d600dddff0a3a2084095ffaa310d
+Version/tb_architecture=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea4f4dba6213fe756d5a28cf8c1f91b633
+
+[testbench_for_half_adder]
+Configures=half_adder_tb.TB_ARCHITECTURE
+E=1*4787
+I=0*4263
+M=2|0|ve8|1696964983929|../src/TestBench/half_adder_TB.vhd|0*3316*0x5394cd6c958e6c4c935051790a9da36e75c62b97|0*3626*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/half_adder_TB.vhd|76
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e573c5c87dd7a7afc4f9aa6921063442667139e025dcb841ff58a3de5d147a18671278440844b2bbfc589fc167ece89558
+
+[~U]
+half_adder=Half_Adder 11|0*0|
+half_adder_tb=11|0*1451|
+testbench_for_half_adder=TESTBENCH_FOR_half_adder 2||

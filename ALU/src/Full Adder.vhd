@@ -28,7 +28,7 @@ architecture Behavioral of Full_Adder is
   signal Sum1, Carry1, Carry2: STD_LOGIC;  -- signals
 begin
   HA1: entity work.Half_Adder -- creating the first half adder from Half Adder.vhdl
-    port map (				  -- mapping in's and out's
+    port map (				  -- mapping the ports
       A => A,
       B => B,
       Sum => Sum1,
@@ -36,13 +36,13 @@ begin
     );
 
   HA2: entity work.Half_Adder -- creating the second half adder from Half Adder.vhdl	
-    port map (				  -- mapping in's and out's
+    port map (				  -- mapping the ports
       A => Sum1,
       B => Cin,
       Sum => Sum,
       Carry => Carry2
     );
 
-  -- the carry-out is combine through an OR of the two carry bits
+  -- the carry-out is combine through an OR of the two carry bits (essentially two half adders combine outputs go to the two inputs of the OR)
   Cout <= Carry1 OR Carry2;
 end Behavioral;

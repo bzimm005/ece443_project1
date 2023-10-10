@@ -5,3 +5,4 @@
 .\src\16-bit Multiplier.vhd
 .\src\16-bit Multiplexer.vhd
 .\src\ALU.vhd
+.\src\TestBench\half_adder_TB.vhd
