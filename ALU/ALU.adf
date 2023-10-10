@@ -42,6 +42,8 @@ TestBench=1
 /ALU.vhd=-1
 TestBench/half_adder_TB.vhd=-1
 TestBench/half_adder_TB_runtest.do=-1
+TestBench/full_adder_TB.vhd=-1
+TestBench/full_adder_TB_runtest.do=-1
 
 [Files.Data]
 .\src\Half Adder.vhd=VHDL Source Code
@@ -54,3 +56,5 @@ TestBench/half_adder_TB_runtest.do=-1
 .\src\TestBench\half_adder_TB.vhd=VHDL Test Bench
 .\src\TestBench\half_adder_TB_runtest.do=Macro
 
+.\src\TestBench\full_adder_TB.vhd=VHDL Test Bench
+.\src\TestBench\full_adder_TB_runtest.do=Macro

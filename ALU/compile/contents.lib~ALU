@@ -1,6 +1,13 @@
-5
+11
+~E 1 "../src/Full Adder.vhd" 20 Full_Adder
+~A 1 "../src/Full Adder.vhd" 27 Behavioral
+~E 1 "../src/TestBench/full_adder_TB.vhd" 8 full_adder_tb
+~A 1 "../src/TestBench/full_adder_TB.vhd" 11 TB_ARCHITECTURE
 ~E 1 "../src/Half Adder.vhd" 16 Half_Adder
 ~A 1 "../src/Half Adder.vhd" 23 Behavioral
 ~E 1 "../src/TestBench/half_adder_TB.vhd" 8 half_adder_tb
 ~A 1 "../src/TestBench/half_adder_TB.vhd" 11 TB_ARCHITECTURE
+~E 1 "../src/16-bit Adder.vhd" 9 Sixteen_Bit_Adder
+~A 1 "../src/16-bit Adder.vhd" 18 Behavioral
+~C 1 "../src/TestBench/full_adder_TB.vhd" 72 testbench_for_full_adder
 ~C 1 "../src/TestBench/half_adder_TB.vhd" 76 testbench_for_half_adder
