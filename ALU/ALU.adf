@@ -1,0 +1,40 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=ALU
+[Library]
+ALU=.\ALU\ALU.lib
+[$LibMap$]
+ALU=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/Half Adder.vhd=-1
+/Full Adder.vhd=-1
+/16-bit Adder.vhd=-1
+/16-bit Subtractor.vhd=-1
+/16-bit Multiplier.vhd=-1
+/16-bit Multiplexer.vhd=-1
+/ALU.vhd=-1
+[Files.Data]
+.\src\Half Adder.vhd=VHDL Source Code
+.\src\Full Adder.vhd=VHDL Source Code
+.\src\16-bit Adder.vhd=VHDL Source Code
+.\src\16-bit Subtractor.vhd=VHDL Source Code
+.\src\16-bit Multiplier.vhd=VHDL Source Code
+.\src\16-bit Multiplexer.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,2 @@
+-- ALU:
+-- Implement the ALU using the 16-bit adder, 16-bit multiplier, 16-bit multiplexer, and gates.

@@ -1,0 +1,2 @@
+-- 16-bit Adder
+-- Implement a 16-bit adder using full adders and gates.	

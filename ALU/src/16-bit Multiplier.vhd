@@ -1,0 +1,2 @@
+-- 16-bit Multiplier:
+-- Implement a 16-bit multiplier using either a structural or behavioral model.

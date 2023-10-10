@@ -1,0 +1,2 @@
+-- Full Adder:
+-- Implement a full adder using half adders and gates. 
