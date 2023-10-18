@@ -15,7 +15,7 @@ architecture TB_ARCHITECTURE of half_adder_tb is
 		A : in STD_LOGIC;
 		B : in STD_LOGIC;
 		Sum : out STD_LOGIC;
-		Carry : out STD_LOGIC );
+		Cout : out STD_LOGIC );
 	end component;
 
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
@@ -24,7 +24,7 @@ architecture TB_ARCHITECTURE of half_adder_tb is
 	
 	-- Observed signals - signals mapped to the output ports of tested entity
 	signal Sum : STD_LOGIC;
-	signal Carry : STD_LOGIC;
+	signal Cout : STD_LOGIC;
 
 	-- Add your code here ...
 
@@ -36,40 +36,35 @@ begin
 			A => A,
 			B => B,
 			Sum => Sum,
-			Carry => Carry
+			Cout => Cout
 		);
 
-	-- Test Case 1: A = 0, B = 0
-	process
-	begin
+	
+	stimulus: process
+	begin	 
+		
+		-- Test Case 1: A = 0, B = 0
 		A <= '0';
 		B <= '0';
 		wait for 10 ns; -- this is needed for simulation
-	end process;
 			
-	-- Test Case 2: A = 1, B = 0
-	process
-	begin
+		-- Test Case 2: A = 1, B = 0
 		A <= '1';
 		B <= '0';
 		wait for 10 ns;
-	end process;
 		
-	-- Test Case 3: A = 0, B = 1
-	process
-	begin
+		-- Test Case 3: A = 0, B = 1
 		A <= '0';
 		B <= '1';
 		wait for 10 ns;
-	end process;
-	
-	-- Test Case 4: A = 1, B = 1
-	process
-	begin
+		
+		-- Test Case 4: A = 1, B = 1
 		A <= '1';
 		B <= '1';
 		wait for 10 ns;
-	end process;	
+	
+		wait;
+	end process;
 	
 end TB_ARCHITECTURE;
 
