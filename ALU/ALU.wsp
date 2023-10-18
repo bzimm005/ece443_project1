@@ -32,7 +32,7 @@ FileTimeHigh=31064350
 [General]
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\ALU\ALU.adf|]
-Path=
+Path=/half_adder
 [COMPILESTATUS|.\src\TestBench\half_adder_TB.vhd]
 FileTimeLow=3206168793
 FileTimeHigh=31064349
@@ -117,10 +117,6 @@ Status=Modified
 FileTimeLow=3490849992
 FileTimeHigh=31064408
 Status=Modified
-[COMPILESTATUS|.\src\Full Adder.vhd]
-FileTimeLow=3206138791
-FileTimeHigh=31064349
-Status=Modified
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\ALU\src/Full Adder.vhd|]
 CurrentLine=0
 CurrentColumn=0
@@ -185,9 +181,9 @@ BookmarksLength=3
 ZoomFactor=0
 Frame=0
 WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////+ACAABiAQAA6wUAAKoDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
-[OPENDOC|Aldec.Hde.HdePlugIn.7|.\ALU\src\Half Adder.vhd|]
-CurrentLine=11
-CurrentColumn=54
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\ALU\src/Half Adder.vhd|]
+CurrentLine=0
+CurrentColumn=0
 Bookmarks=-1
 BookmarksLength=3
 ZoomFactor=0
