@@ -1,90 +1,67 @@
-timestamp=1696966826750
+timestamp=1697588980434
 
 [~A]
-ModifyID=11
+ModifyID=23
 Version=74
 
 [~MFT]
-0=10|0ALU.mgf|13285|3357
-1=4|1ALU.mgf|17270|10391
-3=2|3ALU.mgf|2002|941
+0=24|0ALU.mgf|4926|548
+1=3|1ALU.mgf|1304|0
+3=3|3ALU.mgf|500|0
+
+[and_gate]
+A/and_gate_arch=*21|../src/Half Adder.vhd|21|
+A/structural=21|../src/Half Adder.vhd|21|1*0
+BinW64/structural=3*0
+I=0*1720
+I/structural=0*2192
+M=11|2|vef|1697588980381|../src/Half Adder.vhd|0*1410*0xe94141e23a1d1c89c45b77fe6c9037c3ccc8f814|0*1637*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=21|2|vef|1697588980383|../src/Half Adder.vhd|0*1922*0xb3b7c482b7d49cad501f8b68bc22ecaba7649d2b|0*2095*0x20116f55b147878295aeff36dce7fc50
+R=../src/Half Adder.vhd|15
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|41efc8ebaa23e4e72891b14cb2d32c877f4cee0fde8a5d9850c97b661401bf3480d9e53ffff5bcc6cf46f96e37cef5fc
+Version/structural=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb55ba48c17cd4c9cae86042db6690f759
 
 [full_adder]
-A/behavioral=A/Behavioral 21|../src/Full Adder.vhd|27|1*12652
-BinI32/behavioral=3*1825
-I=0*5012
-I/behavioral=I/Behavioral 0*9148
-M=11|0|ve8|1696966326593|../src/Full Adder.vhd|0*4627*0x41b4d0d72e20b326f4ca18584eaa4e7145ebf6d3|0*4927*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|0|ve8|1696966447858|../src/Full Adder.vhd|0*5297*0x6adfd1d7be9ed386b8d844c6d1e7ac6aa658f47c|0*5712*0x20116f55b147878295aeff36dce7fc50
-R=../src/Full Adder.vhd|20
-Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933ebf196ef2badc7e8fb5cbe470b7c9afef
-Version/behavioral=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4e51ba2f2459ef404cc80a49a186c523d
+A/behavioral=A/Behavioral *21|../src/Full Adder.vhd|27|
 
 [full_adder_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/full_adder_TB.vhd|11|1*15787
-BinI32/tb_architecture=3*2002
-I=0*9971
-I/tb_architecture=I/TB_ARCHITECTURE 0*12945
-M=11|0|ve8|1696966622288|../src/TestBench/full_adder_TB.vhd|0*9612*0x5d5025c2619527ec06e25424500762db386e4d9a|0*9870*0x23b75c12e3e89f2ef000564498faa8c2
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|ve8|1696966826721|../src/TestBench/full_adder_TB.vhd|0*12076*0xa7a0eba958028fd098e7b475922812a81a14223e|0*12825*0x20116f55b147878295aeff36dce7fc50
-R=../src/TestBench/full_adder_TB.vhd|8
-Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|a6d9544d463e51205ff7fdbcf61f84f4cb32de88913de833873bfe5b99a36b0b2efafeea979367798fa6d94ad034413f
-Version/tb_architecture=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea385116b4c9385d5aa4eced4b9d2f924e
+A/tb_architecture=A/TB_ARCHITECTURE *21|../src/TestBench/full_adder_TB.vhd|11|
 
 [half_adder]
-A/behavioral=A/Behavioral 21|../src/Half Adder.vhd|23|1*7256
-BinI32/behavioral=3*764
-I=0*573
-I/behavioral=I/Behavioral 0*6143
-M=11|0|ve8|1696963907629|../src/Half Adder.vhd|0*193*0xb1386474f0bc6dd22af7fb978129634ad076156f|0*488*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|0|ve8|1696966366533|../src/Half Adder.vhd|0*858*0x4b9b5a6f0630db72fa1c978801ed52813df333be|0*1056*0x20116f55b147878295aeff36dce7fc50
-R=../src/Half Adder.vhd|16
-Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c2d3eca8a20f00870e78216cf7d163c0be
-Version/behavioral=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4535ca759246274d837918ed2fdaa486d
+A/behavioral=*21|../src/Half Adder.vhd|23|
+A/structural=21|../src/Half Adder.vhd|53|1*1304
+BinW64/structural=3*500
+I=0*4111
+I/structural=0*4926
+M=11|2|vef|1697588980393|../src/Half Adder.vhd|0*3769*0x3a3aa5a00405efccae35ddc89adcb98184fc2ce1|0*4026*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=21|2|vef|1697588980395|../src/Half Adder.vhd|0*4315*0xdc07a67749c566b18cd727823d5aa819cc7e85ab|0*4827*0x20116f55b147878295aeff36dce7fc50
+R=../src/Half Adder.vhd|45
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c28576904a0ec6c141972855af3111c73f
+Version/structural=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb8576904a0ec6c141972855af3111c73f
 
 [half_adder_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/half_adder_TB.vhd|11|1*10834
-BinI32/tb_architecture=3*1442
-I=0*1942
-I/tb_architecture=I/TB_ARCHITECTURE 0*8639
-M=11|0|ve8|1696964249499|../src/TestBench/half_adder_TB.vhd|0*1583*0x634e83ae3a1e3285632a17f3e7a2d006abf1762c|0*1841*0x23b75c12e3e89f2ef000564498faa8c2
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|ve8|1696966366656|../src/TestBench/half_adder_TB.vhd|0*2230*0xb389764af14a7428e6cc8bf3bfd818971ac0ed1f|0*2857*0x20116f55b147878295aeff36dce7fc50
-R=../src/TestBench/half_adder_TB.vhd|8
-Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|16eaafcb5e1fe12ed7f5555c2b76b6cb369d343d60f70d7997228d8bb13d00837433d600dddff0a3a2084095ffaa310d
-Version/tb_architecture=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beaa6be260ecf7f98f58aaf42ccb129ef77
+A/tb_architecture=A/TB_ARCHITECTURE *21|../src/TestBench/half_adder_TB.vhd|11|
 
 [sixteen_bit_adder]
-A/behavioral=A/Behavioral 21|../src/16-bit Adder.vhd|18|1*9242
-BinI32/behavioral=3*1145
-I=0*7471
-I/behavioral=I/Behavioral 0*8300
-M=11|0|ve8|1696966366571|../src/16-bit Adder.vhd|0*6996*0x8723dbf3cf0babc8d23a9e45ea68714d36641bba|0*7377*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|0|ve8|1696966366576|../src/16-bit Adder.vhd|0*7763*0x1f65c7ca8d22205a177a1e0346abf411fc2c8ea8|0*8192*0x20116f55b147878295aeff36dce7fc50
-R=../src/16-bit Adder.vhd|9
-Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|3f3b882a2ac1d3b9a31d28556e6d626c0ad0579a16be951116212b687935d2debe1c23b11d17a18c340ed65cd3785316
-Version/behavioral=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4fb969b0e4945ffb6514925ad7d0e54cf
+A/behavioral=A/Behavioral *21|../src/16-bit Adder.vhd|18|
 
-[testbench_for_full_adder]
-Configures=full_adder_tb.TB_ARCHITECTURE
-E=1*17270
-I=0*13285
-M=2|0|ve8|1696966826733|../src/TestBench/full_adder_TB.vhd|0*11468*0xf3c164b27e41a1b8bf6d7e5c79d9d7a6c2247c7c|0*11778*0x20116f55b147878295aeff36dce7fc50
-R=../src/TestBench/full_adder_TB.vhd|72
-Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e55d0141f7211228a327deeec58fbd7ae40d1fbeba94d0b2f33614fe6d8f7b31079ea49978c0637f783d5ab5afe4f9fd9a
-
-[testbench_for_half_adder]
-Configures=half_adder_tb.TB_ARCHITECTURE
-E=1*12169
-I=0*8978
-M=2|0|ve8|1696966366662|../src/TestBench/half_adder_TB.vhd|0*3316*0x5394cd6c958e6c4c935051790a9da36e75c62b97|0*3626*0x20116f55b147878295aeff36dce7fc50
-R=../src/TestBench/half_adder_TB.vhd|76
-Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e573c5c87dd7a7afc4f9aa6921063442667139e025dcb841ff58a3de5d147a186720ebd98bc4f343e91ea5f6d6df909ca5
+[xor_gate]
+A/structural=21|../src/Half Adder.vhd|36|1*652
+A/xor_gate_arch=*21|../src/Half Adder.vhd|35|
+BinW64/structural=3*250
+I=0*2894
+I/structural=0*3366
+M=11|2|vef|1697588980387|../src/Half Adder.vhd|0*2584*0x4544d4e9c08b5b7f01382346b9e604e0901a9607|0*2811*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=21|2|vef|1697588980389|../src/Half Adder.vhd|0*3096*0x0defc7988a13960a06146aa99871812fbd472728|0*3269*0x20116f55b147878295aeff36dce7fc50
+R=../src/Half Adder.vhd|30
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|11070725c10b909fd6a7e7d7aeb4dccfd87c0d9e5d47914393e583f08079e890a9d152feab94b059b44fdf8c638c465e
+Version/structural=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb82c4d22fae96a9dd90a1a253a97f5d8d
 
 [~U]
-full_adder=Full_Adder 11|0*4433|
-full_adder_tb=11|0*9480|
-half_adder=Half_Adder 11|0*0|
-half_adder_tb=11|0*1451|
-sixteen_bit_adder=Sixteen_Bit_Adder 11|0*6771|
-testbench_for_full_adder=TESTBENCH_FOR_full_adder 2||
-testbench_for_half_adder=TESTBENCH_FOR_half_adder 2||
+and_gate=11|0*1231|
+full_adder=Full_Adder 11|0*179|
+full_adder_tb=11|0*373|
+half_adder=11|0*3579|
+half_adder_tb=11|0*695|
+sixteen_bit_adder=Sixteen_Bit_Adder 11|0*827|
+xor_gate=11|0*2405|

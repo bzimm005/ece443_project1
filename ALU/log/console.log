@@ -1,0 +1,14 @@
+acom -reorder -O3 -e 100 -work alu -2002  "$dsn/src/Half Adder.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/ALU/src/Half Adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# Top-level unit(s) detected:
+# Entity => half_adder
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

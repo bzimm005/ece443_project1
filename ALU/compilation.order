@@ -2,8 +2,9 @@
 .\src\Full Adder.vhd
 .\src\16-bit Adder.vhd
 .\src\16-bit Subtractor.vhd
-.\src\16-bit Multiplier.vhd
 .\src\16-bit Multiplexer.vhd
+.\src\16-bit Multiplier.vhd
 .\src\ALU.vhd
 .\src\TestBench\half_adder_TB.vhd
 .\src\TestBench\full_adder_TB.vhd
+.\src\TestBench\sixteen_bit_subtractor_TB.vhd
