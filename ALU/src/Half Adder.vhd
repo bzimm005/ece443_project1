@@ -1,12 +1,19 @@
+------------------------------------------------------------------------------------
+--
 -- Half Adder:
--- Implement a half adder using gates.
-
+-- A half adder takes two input bits (A,B), outputs a 1-bit Sum as A XOR B,
+-- and outputs a Carry bit as A AND B
+--
+------------------------------------------------------------------------------------
+--
 -- Half Adder Truth Table:
 -- A	B	Sum	 Carry
 -- 0	0	0	 0
 -- 0	1	1	 0
 -- 1	0	1	 0
 -- 1	1	0	 1
+--
+------------------------------------------------------------------------------------
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -71,12 +78,14 @@ architecture structural of half_adder is
   begin	
 	  
    -- Instantiage AND and XOR gates 
-   U1: and_gate port map(
+   U1: and_gate 
+     port map(
           a => A,
           b => B, 
           c => and1_out);
           
-   U2: xor_gate port map(
+   U2: xor_gate 
+     port map(
           a => A,  
           b => B,
           c => xor1_out);

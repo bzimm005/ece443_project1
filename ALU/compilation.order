@@ -7,4 +7,5 @@
 .\src\ALU.vhd
 .\src\TestBench\half_adder_TB.vhd
 .\src\TestBench\full_adder_TB.vhd
+.\src\TestBench\sixteen_bit_adder_TB.vhd
 .\src\TestBench\sixteen_bit_subtractor_TB.vhd

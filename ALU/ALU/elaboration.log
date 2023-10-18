@@ -1,4 +1,4 @@
-Active-HDL 13.0.376.8320 2023-10-17 22:22:55
+Active-HDL 13.0.376.8320 2023-10-18 12:11:01
 
 Elaboration top modules:
 Architecture                  structural(half_adder)
@@ -27,3 +27,9 @@ alu                       | None
 ieee                      | Standard IEEE packages library
 std                       | Standard VHDL library
 ---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+half_adder half_adder structural
+
+
+The performance of simulation is reduced. Version Student Edition

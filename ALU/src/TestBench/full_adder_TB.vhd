@@ -1,9 +1,5 @@
 library ieee;
-use ieee.STD_LOGIC_UNSIGNED.all;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
-
-	-- Add your library and packages declaration here ...
 
 entity full_adder_tb is
 end full_adder_tb;
@@ -22,12 +18,11 @@ architecture TB_ARCHITECTURE of full_adder_tb is
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
 	signal A : STD_LOGIC;
 	signal B : STD_LOGIC;
-	signal Cin : STD_LOGIC;
+	signal Cin : STD_LOGIC;	  
+	
 	-- Observed signals - signals mapped to the output ports of tested entity
 	signal Sum : STD_LOGIC;
 	signal Cout : STD_LOGIC;
-
-	-- Add your code here ...
 
 begin
 

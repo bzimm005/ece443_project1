@@ -1,13 +1,21 @@
+-----------------------------------------------------------------------------------------
+--
 -- 16-bit Subtractor:
 -- Implement a 16-bit subtractor using the 16-bit adder and gates.	  
-
--- 16-Bit Subtractor Truth Table where A and B are inputs, B is the difference output, and B is the 1-bit borrow output
+-- 
+----------------------------------------------------------------------------------------
+--
+-- 16-Bit Subtractor Truth Table where A and B are inputs, B is the difference output, 
+-- and B is the 1-bit borrow output
+--
 -- A    B    Borrow   D
 -- 0    0     0       0
 -- 5    3     0       2  
 -- 10   4     0       6
 -- 20   10    0       10
 -- 10   20    1      -10  
+--
+-----------------------------------------------------------------------------------------
 
 library IEEE;
 use IEEE.std_logic_1164.all;
