@@ -1,4 +1,4 @@
-48
+49
 ~E 1 "../src/Half Adder.vhd" 22 and_gate
 ~A 0 "" 0 and_gate_arch
 ~A 1 "../src/Half Adder.vhd" 28 structural
