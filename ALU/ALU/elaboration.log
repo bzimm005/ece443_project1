@@ -1,37 +1,37 @@
-Active-HDL 12.0.118.7745 2023-10-19 15:29:37
+Active-HDL 12.0.118.7745 2023-10-19 15:55:40
 
 Elaboration top modules:
-Architecture                  TB_ARCHITECTURE(full_adder_tb)
+Architecture                  structural(sixteen_bit_adder)
 
 
--------------------------------------------------------------------------------------------------
-Entity        | Architecture    | Library | Info | Compiler Version        | Compilation Options
--------------------------------------------------------------------------------------------------
-full_adder_tb | TB_ARCHITECTURE | alu     |      | 12.0.118.7745 (Windows) | -O3
-Full_Adder    | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
-half_adder    | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
-and_gate      | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
-xor_gate      | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Entity            | Architecture | Library | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------
+sixteen_bit_adder | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
+Full_Adder        | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
+half_adder        | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
+and_gate          | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
+xor_gate          | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
+--------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------------
-VHDL Package                    | Library | Info | Compiler Version        | Compilation Options
--------------------------------------------------------------------------------------------------
-standard                        | std     |      |                         | <unavailable>
-TEXTIO                          | std     |      |                         | <unavailable>
-std_logic_1164                  | ieee    |      |                         | <unavailable>
--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+VHDL Package                     | Library | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------
+standard                         | std     |      |                         | <unavailable>
+TEXTIO                           | std     |      |                         | <unavailable>
+std_logic_1164                   | ieee    |      |                         | <unavailable>
+--------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------------
-Library                         | Comment
--------------------------------------------------------------------------------------------------
-alu                             | None
-ieee                            | Standard IEEE packages library
-std                             | Standard VHDL library
--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Library                          | Comment
+--------------------------------------------------------------------------------------------------
+alu                              | None
+ieee                             | Standard IEEE packages library
+std                              | Standard VHDL library
+--------------------------------------------------------------------------------------------------
 
 
-Simulation Options: asim -O5 +access +r +m+full_adder_tb full_adder_tb TB_ARCHITECTURE
+Simulation Options: asim -O5 +access +r +m+sixteen_bit_adder sixteen_bit_adder structural
 
 
 The performance of simulation is reduced. Version EDU Edition

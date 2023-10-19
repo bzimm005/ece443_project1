@@ -19,7 +19,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
--- 16-bit adder entity
 entity sixteen_bit_adder is
   port (
     A, B : in std_logic_vector(15 downto 0);  -- 16 bit inputs
@@ -27,10 +26,9 @@ entity sixteen_bit_adder is
   );
 end sixteen_bit_adder;
 
--- Structural architecture
 architecture structural of sixteen_bit_adder is
 
-  -- Component declaration for full adder
+  -- full adder declaration
   component full_adder
     port (
       A, B, Cin : in std_logic;
@@ -38,23 +36,20 @@ architecture structural of sixteen_bit_adder is
     );
   end component;
   
-  -- Carry signals between full adders
-  signal C : std_logic_vector(15 downto 0);
+  signal Carry : std_logic_vector(16 downto 0);	-- carry signals between the FA's
   
 begin
 
-  -- Generate 16 full adder instances
-  adders: for i in 0 to 15 generate
+  adders: for i in 0 to 15 generate	-- create 16 full adders
     FA: full_adder port map (
         A => A(i), 
         B => B(i),
-        Cin => C(i),
+        Cin => Carry(i),
         Sum => Sum(i),
-        Cout => C(i+1)
+        Cout => Carry(i+1)
        );
   end generate adders;
   
-  -- Set first carry-in to zero
-  C(0) <= '0';
+  Carry(0) <= '0'; -- set the first carry in to 0
 
 end structural;
