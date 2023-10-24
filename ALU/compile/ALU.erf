@@ -37,4 +37,4 @@ MESSAGE "File: c:/My_Designs/ece443_project1/ALU/src/TestBench/sixteen_bit_adder
 MESSAGE "Compile Entity "sixteen_bit_adder_tb"" 
 MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "sixteen_bit_adder_tb"" 
 MESSAGE "Compile Configuration "TESTBENCH_FOR_sixteen_bit_adder"" 
-SUCCESS "Compile success 0 Errors 4 Warnings  Analysis time :  0.2 [s]" 
+SUCCESS "Compile success 0 Errors 4 Warnings  Analysis time :  0.1 [s]" 

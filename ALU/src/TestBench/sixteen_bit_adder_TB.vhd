@@ -2,8 +2,6 @@ library ieee;
 use ieee.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-	-- Add your library and packages declaration here ...
-
 entity sixteen_bit_adder_tb is
 end sixteen_bit_adder_tb;
 
@@ -16,14 +14,12 @@ architecture TB_ARCHITECTURE of sixteen_bit_adder_tb is
 		Sum : out SIGNED(15 downto 0) );
 	end component;
 
-	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
+	-- Stimulus signals
 	signal A : SIGNED(15 downto 0);
 	signal B : SIGNED(15 downto 0);
 	
-	-- Observed signals - signals mapped to the output ports of the tested entity
+	-- Observed signals
 	signal Sum : SIGNED(15 downto 0);
-
-	-- Add your code here ...
 
 begin
 
@@ -34,8 +30,6 @@ begin
 			B => B,
 			Sum => Sum
 		);
-
-	-- Add your stimulus here ...
 	
 	stimulus: process
 	begin

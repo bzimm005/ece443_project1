@@ -28,36 +28,34 @@ entity sixteen_bit_adder is
 end sixteen_bit_adder;
 
 architecture structural of sixteen_bit_adder is
-  -- full adder declaration
-  component full_adder
+
+  component full_adder	-- full adder
     port (
       A, B, Cin : in std_logic;
       Sum, Cout : out std_logic
     );
   end component;
 
-  signal A_std : std_logic_vector(15 downto 0);
-  signal B_std : std_logic_vector(15 downto 0);
-  signal Sum_std : std_logic_vector(15 downto 0);
+  signal A_std_vector : std_logic_vector(15 downto 0);
+  signal B_std_vector : std_logic_vector(15 downto 0);
+  signal Sum_std_vector : std_logic_vector(15 downto 0);
   signal Carry : std_logic_vector(16 downto 0);  -- carry signals between the FA's
 
 begin
-  -- Convert SIGNED inputs to std_logic_vector
-  A_std <= std_logic_vector(A);
-  B_std <= std_logic_vector(B);
+  A_std_vector <= std_logic_vector(A);	-- Convert SIGNED inputs to std_logic_vector
+  B_std_vector <= std_logic_vector(B);
 
   adders: for i in 0 to 15 generate  -- create 16 full adders
     FA: full_adder port map (
-      A => A_std(i),
-      B => B_std(i),
+      A => A_std_vector(i),
+      B => B_std_vector(i),
       Cin => Carry(i),
-      Sum => Sum_std(i),
+      Sum => Sum_std_vector(i),
       Cout => Carry(i + 1)
     );
   end generate adders;
 
-  Carry(0) <= '0'; -- set the first carry in to 0
+  Carry(0) <= '0'; -- set first carry to 0
 
-  -- Convert std_logic_vector output to SIGNED
-  Sum <= signed(Sum_std);
+  Sum <= signed(Sum_std_vector); -- Convert std_logic_vector to SIGNED
 end structural;
