@@ -1,5 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use IEEE.numeric_std.all;
 
 	-- Add your library and packages declaration here ...
 
@@ -10,16 +11,17 @@ architecture TB_ARCHITECTURE of sixteen_bit_adder_tb is
 	-- Component declaration of the tested unit
 	component sixteen_bit_adder
 	port(
-		A : in STD_LOGIC_VECTOR(15 downto 0);
-		B : in STD_LOGIC_VECTOR(15 downto 0);
-		Sum : out STD_LOGIC_VECTOR(15 downto 0) );
+		A : in SIGNED(15 downto 0);
+		B : in SIGNED(15 downto 0);
+		Sum : out SIGNED(15 downto 0) );
 	end component;
 
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
-	signal A : STD_LOGIC_VECTOR(15 downto 0);
-	signal B : STD_LOGIC_VECTOR(15 downto 0);
-	-- Observed signals - signals mapped to the output ports of tested entity
-	signal Sum : STD_LOGIC_VECTOR(15 downto 0);
+	signal A : SIGNED(15 downto 0);
+	signal B : SIGNED(15 downto 0);
+	
+	-- Observed signals - signals mapped to the output ports of the tested entity
+	signal Sum : SIGNED(15 downto 0);
 
 	-- Add your code here ...
 
@@ -39,13 +41,8 @@ begin
 	begin
 		
 		-- Test #1
-		A <= "1100110011001100";
-		B <= "0011001100110011";
-		wait for 10 ns;
-		
-		-- Test #2
-		A <= "0011001100110011";
-		B <= "1100110011001100";
+		A <= "0000000000000010";  --  2
+		B <= "1111111111111110";  -- -2
 		wait for 10 ns;
 		
 		wait;

@@ -1,1 +1,4 @@
-half_adder ENTITY
+TESTBENCH_FOR_full_adder CONFIGURATION
+TESTBENCH_FOR_sixteen_bit_adder CONFIGURATION
+sixteen_bit_subtractor_TB ENTITY
+TESTBENCH_FOR_half_adder CONFIGURATION

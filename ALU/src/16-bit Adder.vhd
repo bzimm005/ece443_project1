@@ -18,16 +18,16 @@
 
 library IEEE;
 use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
 
 entity sixteen_bit_adder is
   port (
-    A, B : in std_logic_vector(15 downto 0);  -- 16 bit inputs
-    Sum : out std_logic_vector(15 downto 0)	  -- 16 bit outputs
+    A, B : in SIGNED(15 downto 0);  -- 16 bit inputs
+    Sum : out SIGNED(15 downto 0)	  -- 16 bit outputs
   );
 end sixteen_bit_adder;
 
 architecture structural of sixteen_bit_adder is
-
   -- full adder declaration
   component full_adder
     port (
@@ -35,21 +35,29 @@ architecture structural of sixteen_bit_adder is
       Sum, Cout : out std_logic
     );
   end component;
-  
-  signal Carry : std_logic_vector(16 downto 0);	-- carry signals between the FA's
-  
-begin
 
-  adders: for i in 0 to 15 generate	-- create 16 full adders
+  signal A_std : std_logic_vector(15 downto 0);
+  signal B_std : std_logic_vector(15 downto 0);
+  signal Sum_std : std_logic_vector(15 downto 0);
+  signal Carry : std_logic_vector(16 downto 0);  -- carry signals between the FA's
+
+begin
+  -- Convert SIGNED inputs to std_logic_vector
+  A_std <= std_logic_vector(A);
+  B_std <= std_logic_vector(B);
+
+  adders: for i in 0 to 15 generate  -- create 16 full adders
     FA: full_adder port map (
-        A => A(i), 
-        B => B(i),
-        Cin => Carry(i),
-        Sum => Sum(i),
-        Cout => Carry(i+1)
-       );
+      A => A_std(i),
+      B => B_std(i),
+      Cin => Carry(i),
+      Sum => Sum_std(i),
+      Cout => Carry(i + 1)
+    );
   end generate adders;
-  
+
   Carry(0) <= '0'; -- set the first carry in to 0
 
+  -- Convert std_logic_vector output to SIGNED
+  Sum <= signed(Sum_std);
 end structural;

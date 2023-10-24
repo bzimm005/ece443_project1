@@ -25,7 +25,7 @@ FAMILY=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=half_adder|structural|0
+HierarchyInformation=full_adder_tb|TB_ARCHITECTURE|0 sixteen_bit_adder|structural|0 
 ShowHide=ShowTopLevel
 Selected=
 

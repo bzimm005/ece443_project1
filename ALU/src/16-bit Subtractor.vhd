@@ -64,12 +64,12 @@ begin
 	end generate;
 
   -- 16-bit adder instance
-  ADDER: sixteen_bit_adder port map(
-      A => A,
-      B => not_B_sig,
-      S => adder_out,
-      Cout => borrow_temp
-  );
+--  ADDER: sixteen_bit_adder port map(
+--      A => A,
+--      B => not_B_sig,
+--      S => adder_out,
+--      Cout => borrow_temp
+--  );
 
   -- Assign outputs
   D <= adder_out;
