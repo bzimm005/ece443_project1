@@ -1,1 +1,1 @@
-sixteen_bit_adder ENTITY
+TESTBENCH_FOR_sixteen_bit_adder CONFIGURATION

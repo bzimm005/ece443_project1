@@ -3,17 +3,21 @@ full_adder=1
 Built-in symbols=0
 sixteen_bit_adder=0
 [COMPILESTATUS|.\src\half_adder.vhd]
-FileTimeLow=31065924
+FileTimeLow=2898586268
 Status=Compiled
+FileTimeHigh=31065940
 [COMPILESTATUS|.\src\full_adder.vhd]
-FileTimeLow=31065924
+FileTimeLow=2898576265
 Status=Compiled
+FileTimeHigh=31065940
 [COMPILESTATUS|.\src\sixteen_bit_adder.vhd]
-FileTimeLow=31065924
+FileTimeLow=2898586268
 Status=Compiled
+FileTimeHigh=31065940
 [COMPILESTATUS|.\src\TestBench\sixteen_bit_adder_TB.vhd]
-FileTimeLow=31065924
+FileTimeLow=4093914109
 Status=Compiled
+FileTimeHigh=31066013
 [COMPILESTATUS|.\src\TestBench\sixteen_bit_adder_TB_runtest.do]
 FileTimeLow=31065924
 Status=Modified
