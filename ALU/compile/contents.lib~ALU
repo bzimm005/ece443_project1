@@ -1,7 +1,9 @@
-131
+175
 ~E 1 "../src/Half Adder.vhd" 22 and_gate
 ~A 0 "" 0 and_gate_arch
 ~A 1 "../src/Half Adder.vhd" 28 structural
+~E 1 "../src/16-bit Multiplier.vhd" 29 ClassicMult16
+~A 1 "../src/16-bit Multiplier.vhd" 35 Behavioral
 ~E 1 "../src/Full Adder.vhd" 32 Full_Adder
 ~A 0 "" 0 Behavioral
 ~A 1 "../src/Full Adder.vhd" 39 structural
@@ -12,11 +14,17 @@
 ~A 1 "../src/Half Adder.vhd" 60 structural
 ~E 1 "../src/TestBench/half_adder_TB.vhd" 8 half_adder_tb
 ~A 1 "../src/TestBench/half_adder_TB.vhd" 11 TB_ARCHITECTURE
+~E 1 "../src/16-bit Multiplier.vhd" 9 Multiplier
+~A 1 "../src/16-bit Multiplier.vhd" 16 Behavioral
 ~E 1 "../src/16-bit Adder.vhd" 23 sixteen_bit_adder
 ~A 0 "" 0 Behavioral
 ~A 1 "../src/16-bit Adder.vhd" 30 structural
 ~E 1 "../src/TestBench/sixteen_bit_adder_TB.vhd" 7 sixteen_bit_adder_tb
 ~A 1 "../src/TestBench/sixteen_bit_adder_TB.vhd" 8 TB_ARCHITECTURE
+~E 1 "../src/16-bit Multiplier.vhd" 8 sixteen_bit_multiplier
+~A 1 "../src/16-bit Multiplier.vhd" 15 Behavioral
+~E 1 "../src/TestBench/sixteen_bit_multiplier_TB.vhd" 7 sixteen_bit_multiplier_tb
+~A 1 "../src/TestBench/sixteen_bit_multiplier_TB.vhd" 10 TB_ARCHITECTURE
 ~E 1 "../src/16-bit Subtractor.vhd" 25 sixteen_bit_subtractor
 ~A 1 "../src/16-bit Subtractor.vhd" 33 structural
 ~E 1 "../src/TestBench/sixteen_bit_subtractor_TB.vhd" 18 sixteen_bit_subtractor_TB
@@ -24,6 +32,7 @@
 ~C 1 "../src/TestBench/full_adder_TB.vhd" 99 testbench_for_full_adder
 ~C 1 "../src/TestBench/half_adder_TB.vhd" 71 testbench_for_half_adder
 ~C 1 "../src/TestBench/sixteen_bit_adder_TB.vhd" 47 testbench_for_sixteen_bit_adder
+~C 1 "../src/TestBench/sixteen_bit_multiplier_TB.vhd" 49 testbench_for_sixteen_bit_multiplier
 ~E 1 "../src/Half Adder.vhd" 37 xor_gate
 ~A 1 "../src/16-bit Subtractor.vhd" 13 behavioral
 ~A 1 "../src/Half Adder.vhd" 43 structural
