@@ -29,6 +29,6 @@ TestBench=1
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=sixteen_bit_multiplier_tb|testbench_for_sixteen_bit_multiplier|1  
+HierarchyInformation=sixteen_bit_multiplier_tb|testbench_for_sixteen_bit_multiplier|1
 ShowHide=ShowTopLevel
 Selected=

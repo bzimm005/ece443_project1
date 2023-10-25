@@ -4,3 +4,4 @@ i<>.\src\sixteen_bit_multiplexer.vhd
 i<>.\src\half_adder.vhd
 i<>.\src\full_adder.vhd
 i<>.\src\alu.vhd
+i<>.\src\one_bit_multiplexer.vhd

@@ -1,6 +1,7 @@
-.\src\sixteen_bit_multiplexer.vhd
-.\src\sixteen_bit_multiplier.vhd
 .\src\half_adder.vhd
 .\src\full_adder.vhd
 .\src\sixteen_bit_adder.vhd
+.\src\sixteen_bit_multiplier.vhd
+.\src\one_bit_multiplexer.vhd
+.\src\sixteen_bit_multiplexer.vhd
 .\src\alu.vhd
