@@ -1,4 +1,4 @@
-32
+34
 ~E 1 "../src/sixteen_bit_multiplexer.vhd" 24 mux_16bit
 ~A 1 "../src/sixteen_bit_multiplexer.vhd" 33 structural
 ~E 0 "" 0 mux_16bit_tb
