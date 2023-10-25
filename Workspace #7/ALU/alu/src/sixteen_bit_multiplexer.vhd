@@ -19,19 +19,20 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
 entity mux_16bit is
   port (
-    A, B: in std_logic_vector(15 downto 0);	 --16-bit inputs
+    A, B: in signed(15 downto 0);	 --16-bit inputs
     S0, S1, S2: in std_logic;			     --Select input lines
-    R: out std_logic_vector(15 downto 0);	 --16-bit output  
+    R: out signed(15 downto 0);	 --16-bit output  
 	r_overflow: out std_logic				 --overflow output
   );
 end mux_16bit;
 
 architecture structural of mux_16bit is
   -- Internal signals
-  signal R_int : std_logic_vector(15 downto 0);
+  signal R_int : signed(15 downto 0);
   signal i: integer;  -- Index for loop
 
 begin

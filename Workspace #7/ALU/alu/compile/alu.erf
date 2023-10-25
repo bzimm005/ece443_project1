@@ -24,10 +24,10 @@ MESSAGE "Compile Architecture "structural" of Entity "mux_16bit""
 MESSAGE "File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd" 
 MESSAGE "Compile Entity "alu"" 
 MESSAGE "Compile Architecture "structural" of Entity "ALU"" 
-ERROR ELAB1_0021: "Types do not match for port "A"." "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd" 67 0
-ERROR ELAB1_0021: "Types do not match for port "B"." "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd" 67 0
-ERROR ELAB1_0021: "Types do not match for port "R"." "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd" 67 0
+MESSAGE "File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd" 
+MESSAGE "Compile Entity "sixteen_bit_subtractor"" 
+MESSAGE "Compile Architecture "structural" of Entity "sixteen_bit_subtractor"" 
 MESSAGE "File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd" 
 MESSAGE "Compile Entity "alu_tb"" 
 MESSAGE "Compile Architecture "testbench" of Entity "alu_tb"" 
-FAILURE "Compile failure 3 Errors 0 Warnings  Analysis time :  0.1 [s]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

@@ -5,10 +5,10 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity alu is
-	port(A, B : in signed(15 downto 0);
-	R : out signed(15 downto 0);
-	sel : in std_logic_vector(2 downto 0);
-	status : out std_logic_vector(2 downto 0) 
+	port(A, B : in signed(15 downto 0); -- the 16 bit inputs 
+	R : out signed(15 downto 0);		-- the selected 16 bit result 
+	sel : in std_logic_vector(2 downto 0); -- selects the operation 
+	status : out std_logic_vector(2 downto 0) -- the status of the ALU can be signal overflow, zero result, or a negative result
 	);
 end entity alu;
 
@@ -18,6 +18,14 @@ component sixteen_bit_adder is
   port (
     A, B : in signed(15 downto 0);
     Sum : out signed(15 downto 0)
+  );
+end component;
+
+component sixteen_bit_subtractor is
+  port (
+    A, B : in SIGNED(15 downto 0);	
+    D : out SIGNED(15 downto 0);    
+    Borrow : out std_logic		
   );
 end component;
 
@@ -38,33 +46,48 @@ component mux_16bit
 		);
 end component;
 
+-- Adder signals
 signal adder_result : signed(15 downto 0);
+
+-- Subtractor signals
+signal subtractor_result : signed(15 downto 0);
+signal subtractor_borrow : std_logic;
+
+-- Multiplier signals
 signal multiplier_result : signed(31 downto 0);
 signal overflow_result : std_logic;
 
--- Signals for the 16-bit multiplexer inputs and outputs
+-- Multiplexer signals
 signal mux_A, mux_B: signed(15 downto 0);
 signal mux_R: signed(15 downto 0);
 signal mux_S0, mux_S1, mux_S2: std_logic;
 signal mux_overflow: std_logic;
 
 begin
-	adder_inst: sixteen_bit_adder
+	adder_inst: sixteen_bit_adder -- mapping adder
     port map (
         A   => A,
         B   => B,
         Sum => adder_result
     );
+	
+	subtractor_inst: sixteen_bit_subtractor -- mapping subtractor
+  	port map (
+    	A => A,
+    	B => B,
+    	D => subtractor_result,
+    	Borrow => subtractor_borrow
+  	);
 
-    multiplier_inst: sixteen_bit_multiplier
+    multiplier_inst: sixteen_bit_multiplier -- mapping multiplier
     port map (
         A       => A,
         B       => B,
         Result  => multiplier_result,
-        Overflow => overflow_result  -- You need to provide the proper signal for Overflow
+        Overflow => overflow_result  -- needs proper signal for overflow
     );
 	
-	mux_inst: mux_16bit
+	mux_inst: mux_16bit	 -- mapping mux
     port map (
       A => mux_A,
       B => mux_B,
@@ -75,22 +98,27 @@ begin
       r_overflow => mux_overflow
     );
 	
-	-- Set the input signals for the multiplexer
+	-- Input signals for the multiplexer
 	  mux_A <= A;
 	  mux_B <= B;
 	  mux_S0 <= sel(0);
 	  mux_S1 <= sel(1);
 	  mux_S2 <= sel(2);
+	  
+	  R <= mux_R;
+  	  status <= mux_overflow & '0' & '0';
 	
 	process (sel)
 	begin
 	   case sel is
-            when "000" =>
+            when "000" => -- select adder case
                 R <= adder_result;
-            when "001" =>
-                -- R <= multiplier_result;
+            when "001" => -- select multiplier case
+				R <= multiplier_result(15 downto 0);
+			when "100" => -- select subtractor case
+				R <= subtractor_result;
             when others =>
-                R <= (others => '0');  -- You need to specify the behavior for other cases
+                R <= (others => '0');  -- other cases
         end case;
 	end process;
 

@@ -5,4 +5,5 @@
 .\src\one_bit_multiplexer.vhd
 .\src\sixteen_bit_multiplexer.vhd
 .\src\alu.vhd
+.\src\sixteen_bit_subtractor.vhd
 .\src\Test Bench\alu_TB.vhd
