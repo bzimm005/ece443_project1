@@ -17,20 +17,20 @@ REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
 [Files]
-/Full_Adder.vhd=-1
 /half_adder.vhd=-1
+/Full_Adder.vhd=-1
 TestBench/full_adder_TB.vhd=-1
 TestBench/full_adder_TB_runtest.do=-1
 [Files.Data]
-.\src\Full_Adder.vhd=VHDL Source Code
 .\src\half_adder.vhd=VHDL Source Code
+.\src\Full_Adder.vhd=VHDL Source Code
 .\src\TestBench\full_adder_TB.vhd=VHDL Test Bench
 .\src\TestBench\full_adder_TB_runtest.do=Macro
-[Groups]
-TestBench=1
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=full_adder|structural|0 
+HierarchyInformation=full_adder_tb|testbench_for_full_adder|1
 ShowHide=ShowTopLevel
 Selected=
+[Groups]
+TestBench=1

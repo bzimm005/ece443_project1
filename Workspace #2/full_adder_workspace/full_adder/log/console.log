@@ -1,0 +1,129 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'structural' of entity 'Full_Adder' not found in library 'full_adder'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Library Manager: Library "full_adder" contents cleared.
+acom -reorder -O3 -e 100 -work full_adder -2002  $dsn/src/half_adder.vhd $dsn/src/Full_Adder.vhd $dsn/src/TestBench/full_adder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #2/full_adder_workspace/full_adder/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #2/full_adder_workspace/full_adder/src/Full_Adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #2/full_adder_workspace/full_adder/src/TestBench/full_adder_TB.vhd
+# Compile Entity "full_adder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "full_adder_tb"
+# Compile Configuration "TESTBENCH_FOR_full_adder"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_full_adder
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0080 full_adder_TB.vhd (30): Design unit behavioral:Full_Adder instantiated in full_adder.full_adder_tb(TB_ARCHITECTURE) not found in searched libraries: full_adder.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+testbench_for_full_adder testbench_for_full_adder
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0080 full_adder_TB.vhd (30): Design unit behavioral:Full_Adder instantiated in full_adder.full_adder_tb(TB_ARCHITECTURE) not found in searched libraries: full_adder.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 full_adder_TB.vhd (30): Component /full_adder_tb/UUT : Full_Adder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4832 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #2\full_adder_workspace\full_adder\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  6:34 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #2/full_adder_workspace/full_adder/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Library Manager: Library "full_adder" contents cleared.
+acom -reorder -O3 -e 100 -work full_adder -2002  $dsn/src/half_adder.vhd $dsn/src/Full_Adder.vhd $dsn/src/TestBench/full_adder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #2/full_adder_workspace/full_adder/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #2/full_adder_workspace/full_adder/src/Full_Adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #2/full_adder_workspace/full_adder/src/TestBench/full_adder_TB.vhd
+# Compile Entity "full_adder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "full_adder_tb"
+# Compile Configuration "TESTBENCH_FOR_full_adder"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_full_adder
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+testbench_for_full_adder testbench_for_full_adder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #2\full_adder_workspace\full_adder\src\wave.asdb
+#  6:35 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #2/full_adder_workspace/full_adder/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work full_adder -2002  $dsn/src/TestBench/full_adder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #2/full_adder_workspace/full_adder/src/TestBench/full_adder_TB.vhd
+# Compile Entity "full_adder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "full_adder_tb"
+# Compile Configuration "TESTBENCH_FOR_full_adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+endsim
+# VSIM: Simulation has finished.

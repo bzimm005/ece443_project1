@@ -1,4 +1,4 @@
-5
+10
 ~E 1 "../src/half_adder.vhd" 22 and_gate
 ~A 1 "../src/half_adder.vhd" 28 structural
 ~E 1 "../src/Full_Adder.vhd" 32 Full_Adder
@@ -7,6 +7,6 @@
 ~A 1 "../src/TestBench/full_adder_TB.vhd" 7 TB_ARCHITECTURE
 ~E 1 "../src/half_adder.vhd" 52 half_adder
 ~A 1 "../src/half_adder.vhd" 60 structural
-~C 1 "../src/TestBench/full_adder_TB.vhd" 99 testbench_for_full_adder
+~C 1 "../src/TestBench/full_adder_TB.vhd" 115 testbench_for_full_adder
 ~E 1 "../src/half_adder.vhd" 37 xor_gate
 ~A 1 "../src/half_adder.vhd" 43 structural

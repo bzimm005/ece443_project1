@@ -45,49 +45,65 @@ begin
 		-- Test Case 1: A=0, B=0, Cin=0  
 	    A <= '0';		-- plug in the values
 	    B <= '0';
-	    Cin <= '0';
+	    Cin <= '0';	  
+		-- Sum: 0 (0 XOR 0 XOR 0)
+		-- Cout: 0 ((0 AND 0) OR (0 AND (0 XOR 0)))
 	    wait for 10 ns; -- this is needed for simulation
 	
 	    -- Test Case 2: A=0, B=0, Cin=1
 	    A <= '0';		 -- plug in the values
 	    B <= '0';
 	    Cin <= '1';
+		-- Sum: 1 (0 XOR 0 XOR 1)
+		-- Cout: 0 ((0 AND 0) OR (1 AND (0 XOR 0)))
 	    wait for 10 ns;	 -- this is needed for simulation
 			
 		-- Test Case 3: A=0, B=1, Cin=0
 	    A <= '0';		 -- plug in the values
 	    B <= '1';
 	    Cin <= '0';
-	    wait for 10 ns;	 -- this is needed for simulation
+	    -- Sum: 1 (0 XOR 1 XOR 0)
+		-- Cout: 0 ((0 AND 1) OR (0 AND (0 XOR 1)))
+		wait for 10 ns;	 -- this is needed for simulation
 			
 		-- Test Case 4: A=0, B=1, Cin=1
 	    A <= '0';		 -- plug in the values
 	    B <= '1';
-	    Cin <= '1';
+	    Cin <= '1';	 
+		-- Sum: 0 (0 XOR 1 XOR 1)
+		-- Cout: 1 ((0 AND 1) OR (1 AND (0 XOR 1)))
 	    wait for 10 ns;	 -- this is needed for simulation
 			
 		-- Test Case 5: A=1, B=0, Cin=0
 	    A <= '1';		 -- plug in the values
 	    B <= '0';
 	    Cin <= '0';
+		-- Sum: 1 (1 XOR 0 XOR 0)
+		-- Cout: 0 ((1 AND 0) OR (0 AND (1 XOR 0)))
 	    wait for 10 ns;	 -- this is needed for simulation
 			
 		-- Test Case 6: A=1, B=0, Cin=1
 	    A <= '1';		 -- plug in the values
 	    B <= '0';
 	    Cin <= '1';
+		-- Sum: 0 (1 XOR 0 XOR 1)
+		-- Cout: 1 ((1 AND 0) OR (1 AND (1 XOR 0)))
 	    wait for 10 ns;	 -- this is needed for simulation
 			
 		-- Test Case 7: A=1, B=1, Cin=0
 	    A <= '1';		 -- plug in the values
 	    B <= '1';
-	    Cin <= '0';
+	    Cin <= '0';	
+		-- Sum: 0 (1 XOR 1 XOR 0)
+		-- Cout: 1 ((1 AND 1) OR (0 AND (1 XOR 1)))
 	    wait for 10 ns;	 -- this is needed for simulation
 			
-		-- Test Case 3: A=1, B=1, Cin=1
+		-- Test Case 8: A=1, B=1, Cin=1
 	    A <= '1';		 -- plug in the values
 	    B <= '1';
-	    Cin <= '1';
+	    Cin <= '1';	  
+		-- Sum: 1 (1 XOR 1 XOR 1)
+		-- Cout: 1 ((1 AND 1) OR (1 AND (1 XOR 1)))
 	    wait for 10 ns;	 -- this is needed for simulation
 	    
 	    
@@ -99,7 +115,7 @@ end TB_ARCHITECTURE;
 configuration TESTBENCH_FOR_full_adder of full_adder_tb is
 	for TB_ARCHITECTURE
 		for UUT : full_adder
-			use entity work.full_adder(behavioral);
+			use entity work.full_adder(structural);
 		end for;
 	end for;
 end TESTBENCH_FOR_full_adder;
