@@ -41,3 +41,5 @@ ShowHide=ShowTopLevel
 Selected=
 [Groups]
 Test Bench=1
+[SpecTracer]
+WindowVisible=0

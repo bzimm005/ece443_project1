@@ -1,40 +1,36 @@
-timestamp=1698269528239
+timestamp=1698274909734
 
 [~A]
-ModifyID=67
+ModifyID=70
 Version=74
 
 [~MFT]
-0=8|0sixteen_bit_multiplexer.mgf|5983|1880
-1=2|1sixteen_bit_multiplexer.mgf|3135|1700
-3=2|3sixteen_bit_multiplexer.mgf|621|0
+0=32|0sixteen_bit_multiplexer.mgf|8199|4174
+1=4|1sixteen_bit_multiplexer.mgf|4595|3147
+3=4|3sixteen_bit_multiplexer.mgf|1569|1025
 
 [mux_16bit]
-A/structural=21|../src/sixteen_bit_multiplexer.vhd|32|1*0
-BinW64/structural=3*0
-I=0*1195
-I/structural=0*2261
-M=11|2|vef|1698269417006|../src/sixteen_bit_multiplexer.vhd|0*780*0x909d2f69e496d183959b564c0dea3c546fc269c9|0*1098*0x23b75c12e3e89f2ef000564498faa8c2
-M/structural=21|2|vef|1698269417008|../src/sixteen_bit_multiplexer.vhd|0*1398*0xcb1b7617951da5375c77ca7a1545edec685df7d4|0*2150*0x20116f55b147878295aeff36dce7fc50
-R=../src/sixteen_bit_multiplexer.vhd|23
-Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|15c33034574eabeb956dbd4dc3d7831be70f224784076735812589b7bcbe329098213ddf3ffa0ae600c8320bd3f5a685
-Version/structural=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb6ec4296017021bb569f132a4f2e68a86
-
-[mux_1bit]
-A/structural=*21|../src/one_bit_multiplexer.vhd|25|
+A/structural=21|../src/sixteen_bit_multiplexer.vhd|33|1*3147
+BinI32/structural=3*1025
+I=0*4827
+I/structural=0*5920
+M=11|0|ve8|1698274909674|../src/sixteen_bit_multiplexer.vhd|0*4406*0x8dff97f2d342e57f15bf5e365caf6c336de0d9b6|0*4730*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=21|0|ve8|1698274909676|../src/sixteen_bit_multiplexer.vhd|0*5067*0x5f36a0cff228272298cc937d45cf8c7ed52304f2|0*5809*0x20116f55b147878295aeff36dce7fc50
+R=../src/sixteen_bit_multiplexer.vhd|24
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|15c33034574eabeb956dbd4dc3d7831be70f224784076735812589b7bcbe3290c3dedb4c2acd6fe85d161e3775e15f1e
+Version/structural=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb32ff80016b50e571d1ca384ac1a92cd0
 
 [sixteen_bit_multiplexer_tb]
-A/tb=21|../src/Testbench/sixteen_bit_multiplexer_TB.vhd|20|1*3135
-BinW64/tb=3*621
-I=0*3007
-I/tb=0*5983
-M=11|2|vef|1698269417030|../src/Testbench/sixteen_bit_multiplexer_TB.vhd|0*2633*0x80aa30e0f6dc8ec26f9fd84e482c61cdeec7fab2|0*2880*0x23b75c12e3e89f2ef000564498faa8c2
-M/tb=21|2|vef|1698269528223|../src/Testbench/sixteen_bit_multiplexer_TB.vhd|0*4729*0x4f45fda5a20d4a55d034a07f311751aa3a37e282|0*5850*0x20116f55b147878295aeff36dce7fc50
-R=../src/Testbench/sixteen_bit_multiplexer_TB.vhd|17
-Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|1546c1e1af8a74e08decb225d989d257b4fb66c08dd56bbf5eca25f2e846e957da0d623828b6cb3f2fb3673c2f1b274dd6934f9770262dc56682dc394f007f90
-Version/tb=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|8db8692708dc0985d408d2497dbc95fac67be4b082f73e902a2153ab3fa688e6
+A/tb=21|../src/Testbench/sixteen_bit_multiplexer_TB.vhd|21|1*4595
+BinI32/tb=3*1569
+I=0*6729
+I/tb=0*8199
+M=11|0|ve8|1698274909707|../src/Testbench/sixteen_bit_multiplexer_TB.vhd|0*6329*0xc836743092da746279cda06ac757c721833030da|0*6602*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb=21|0|ve8|1698274909713|../src/Testbench/sixteen_bit_multiplexer_TB.vhd|0*6986*0x23b82aded5e4aec83989d5fcb30bd8d9381f3e83|0*8066*0x20116f55b147878295aeff36dce7fc50
+R=../src/Testbench/sixteen_bit_multiplexer_TB.vhd|18
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|1546c1e1af8a74e08decb225d989d257b4fb66c08dd56bbf5eca25f2e846e957da0d623828b6cb3f2fb3673c2f1b274d331d73e942bb5e9c2df14ed2a1d2cd25
+Version/tb=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|8db8692708dc0985d408d2497dbc95fa69a8c7882f38b8210b28ad59adbbabce
 
 [~U]
-mux_16bit=11|0*560|
-mux_1bit=11|0*220|
-sixteen_bit_multiplexer_tb=sixteen_bit_multiplexer_TB 11|0*2475|
+mux_16bit=11|0*4174|
+sixteen_bit_multiplexer_tb=sixteen_bit_multiplexer_TB 11|0*6171|

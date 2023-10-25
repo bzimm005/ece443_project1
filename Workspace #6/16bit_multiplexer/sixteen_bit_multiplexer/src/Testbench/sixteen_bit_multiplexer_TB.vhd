@@ -13,22 +13,23 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
 entity sixteen_bit_multiplexer_TB is
 end sixteen_bit_multiplexer_TB;
 
 architecture tb of sixteen_bit_multiplexer_TB is
-  signal A, B: std_logic_vector(15 downto 0);
+  signal A, B: signed(15 downto 0);
   signal S0, S1, S2: std_logic;
-  signal R: std_logic_vector(15 downto 0);
+  signal R: signed(15 downto 0);
   signal r_overflow: std_logic;
   
   -- Component instantiation
   component mux_16bit
     port (
-      A, B: in std_logic_vector(15 downto 0);
+      A, B: in signed(15 downto 0);
       S0, S1, S2: in std_logic;
-      R: out std_logic_vector(15 downto 0);
+      R: out signed(15 downto 0);
       r_overflow: out std_logic
     );
   end component; 

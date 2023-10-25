@@ -61,8 +61,8 @@ begin
     process
     begin
         wait for 20 ns;  -- Wait for a sufficient time to capture results
-        report "ALU Output (R) = " & to_string(R);
-        report "ALU Status = " & to_string(status);
+        --report "ALU Output (R) = " & to_string(R);
+        --report "ALU Status = " & to_string(status);
         wait;
     end process;
 end architecture testbench;

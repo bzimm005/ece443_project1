@@ -1,7 +1,5 @@
-67
-~E 1 "../src/sixteen_bit_multiplexer.vhd" 23 mux_16bit
-~A 1 "../src/sixteen_bit_multiplexer.vhd" 32 structural
-~E 0 "" 0 mux_1bit
-~A 0 "" 0 structural
-~E 1 "../src/Testbench/sixteen_bit_multiplexer_TB.vhd" 17 sixteen_bit_multiplexer_TB
-~A 1 "../src/Testbench/sixteen_bit_multiplexer_TB.vhd" 20 tb
+70
+~E 1 "../src/sixteen_bit_multiplexer.vhd" 24 mux_16bit
+~A 1 "../src/sixteen_bit_multiplexer.vhd" 33 structural
+~E 1 "../src/Testbench/sixteen_bit_multiplexer_TB.vhd" 18 sixteen_bit_multiplexer_TB
+~A 1 "../src/Testbench/sixteen_bit_multiplexer_TB.vhd" 21 tb
