@@ -48,18 +48,28 @@ architecture structural of sixteen_bit_subtractor is
   -- Output of adder
   signal adder_out : SIGNED(15 downto 0);
   
+  signal temp : signed(15 downto 0);
+  signal sum_temp : signed(15 downto 0);
+  
 begin
-
-  -- Generate 16-bit inverted B 
+  -- Generate 16-bit inverted B
   NOT_B: for i in 0 to 15 generate
-    not_B_sig(i) <= A(i) XOR B(i); 
+	temp <= "0000000000000001";
+    not_B_sig(i) <= not B(i); 
   end generate;
+  
+  ADDER1: sixteen_bit_adder
+  port map(
+  	A => not_B_sig,
+  	B => temp,
+  	Sum => sum_temp 
+  );
 
   -- 16-bit adder to add A and inverted B
   ADDER: sixteen_bit_adder 
     port map(
       A => A,
-      B => not_B_sig,  
+      B => sum_temp,  
       Sum => adder_out
     );
 

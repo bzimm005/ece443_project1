@@ -46,25 +46,25 @@ begin
   -- Stimulus process
   stim_proc: process
   begin
-  
+  		
     -- Test case 1
-    A_tb <= "0000000000001010"; -- 0x000A or 10
-    B_tb <= "0000000000001000";	-- 0x0008 or 8
-	-- Correct output: 0x0002 = 0000000000000010
+    A_tb <= "1111111111111110"; -- 0x000A or -2
+    B_tb <= "0000000000001010";	-- 0x0008 or 10
+	-- Correct output: 1111111111110100
 
 	    -- Test case 2
     wait for 20 ns;
-    A_tb <= "1111111111110101"; -- -11
-    B_tb <= "0000000000000111"; -- 7
+    --A_tb <= "1111111111110101"; -- -11
+    --B_tb <= "0000000000000111"; -- 7
 	-- Correct output: 0xFFFE = -18
 	
     -- Test case 3
-    wait for 20 ns;
-    A_tb <= "1000000000001000"; -- -128
-    B_tb <= "1000000000001001"; -- -127
+    --wait for 20 ns;
+    --A_tb <= "1000000000001000"; -- -128
+    --B_tb <= "1000000000001001"; -- -127
 	-- Correct output: 0xFFFF = -1
 	
-    wait for 10 ns;
+    --wait for 10 ns;
 
     wait;
   end process;

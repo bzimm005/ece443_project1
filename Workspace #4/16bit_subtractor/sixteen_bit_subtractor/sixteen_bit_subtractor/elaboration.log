@@ -1,34 +1,34 @@
-Active-HDL 13.0.376.8320 2023-10-25 12:07:32
+Active-HDL 12.0.118.7745 2023-10-25 15:33:18
 
 Elaboration top modules:
 Architecture                  TB_architecture(sixteen_bit_subtractor_TB)
 
 
-------------------------------------------------------------------------------------------------------------------------------
-Entity                    | Architecture    | Library                | Info | Compiler Version          | Compilation Options
-------------------------------------------------------------------------------------------------------------------------------
-sixteen_bit_subtractor_TB | TB_architecture | sixteen_bit_subtractor |      | 13.0.376.8320 (Windows64) | -O3
-sixteen_bit_subtractor    | structural      | sixteen_bit_subtractor |      | 13.0.376.8320 (Windows64) | -O3
-sixteen_bit_adder         | structural      | sixteen_bit_subtractor |      | 13.0.376.8320 (Windows64) | -O3
-Full_Adder                | structural      | sixteen_bit_subtractor |      | 13.0.376.8320 (Windows64) | -O3
-half_adder                | structural      | sixteen_bit_subtractor |      | 13.0.376.8320 (Windows64) | -O3
-and_gate                  | structural      | sixteen_bit_subtractor |      | 13.0.376.8320 (Windows64) | -O3
-xor_gate                  | structural      | sixteen_bit_subtractor |      | 13.0.376.8320 (Windows64) | -O3
-------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+Entity                    | Architecture    | Library                | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------------------------------------
+sixteen_bit_subtractor_TB | TB_architecture | sixteen_bit_subtractor |      | 12.0.118.7745 (Windows) | -O3
+sixteen_bit_subtractor    | structural      | sixteen_bit_subtractor |      | 12.0.118.7745 (Windows) | -O3
+sixteen_bit_adder         | structural      | sixteen_bit_subtractor |      | 12.0.118.7745 (Windows) | -O3
+Full_Adder                | structural      | sixteen_bit_subtractor |      | 12.0.118.7745 (Windows) | -O3
+half_adder                | structural      | sixteen_bit_subtractor |      | 12.0.118.7745 (Windows) | -O3
+and_gate                  | structural      | sixteen_bit_subtractor |      | 12.0.118.7745 (Windows) | -O3
+xor_gate                  | structural      | sixteen_bit_subtractor |      | 12.0.118.7745 (Windows) | -O3
+----------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------------------------
-VHDL Package                                | Library                | Info | Compiler Version          | Compilation Options
-------------------------------------------------------------------------------------------------------------------------------
-standard                                    | std                    |      |                           | <unavailable>
-TEXTIO                                      | std                    |      | 13.0.376.8320 (Windows64) |  -2019
-std_logic_1164                              | ieee                   |      | 13.0.376.8320 (Windows64) |  -2008
-NUMERIC_STD                                 | ieee                   |      | 13.0.376.8320 (Windows64) |  -2008
-------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                | Library                | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------------------------------------
+standard                                    | std                    |      |                         | <unavailable>
+TEXTIO                                      | std                    |      |                         | <unavailable>
+std_logic_1164                              | ieee                   |      |                         | <unavailable>
+NUMERIC_STD                                 | ieee                   |      |                         | <unavailable>
+----------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 Library                                     | Comment
-------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 ieee                                        | Standard IEEE packages library
 sixteen_bit_subtractor                      | None
 std                                         | Standard VHDL library
-------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
