@@ -3,22 +3,37 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
-use IEEE.numeric_std.all;
+use ieee.numeric_std.all;
 
 entity sixteen_bit_multiplier is
     Port (
-        A, B : in SIGNED (15 downto 0);
-        Result : out SIGNED (31 downto 0)
+        A, B : in signed (15 downto 0);
+        Result : out signed (31 downto 0);
+		Overflow : out std_logic
     );
 end sixteen_bit_multiplier;
 
 architecture Behavioral of sixteen_bit_multiplier is
+
+signal temp : signed (31 downto 0);
+signal tempA : signed (15 downto 0);
+signal tempB : signed (15 downto 0);
+
 begin
-    process
-        variable TempResult : SIGNED(31 downto 0) := (others => '0');
+	
+	Result <= A*B;
+	tempA <= A;
+	tempB <= B;
+	temp <= tempA*tempB;
+	
+    process(tempA, tempB, temp)
     begin
-        TempResult := A * B;
-        Result <= TempResult;
-        wait; -- Fix the infinite loop warning
+		-- Detect overflow
+        if (tempA(15) = '0' and tempB(15) = '0' and temp(31) = '1') or
+           (tempA(15) = '1' and tempB(15) = '1' and temp(31) = '0') then
+            Overflow <= '1';
+        else
+            Overflow <= '0';
+        end if;
     end process;
 end Behavioral;

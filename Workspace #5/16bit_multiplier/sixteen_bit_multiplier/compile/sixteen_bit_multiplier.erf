@@ -6,4 +6,6 @@ MESSAGE "File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #5/16bit_
 MESSAGE "Compile Entity "sixteen_bit_multiplier_tb"" 
 MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "sixteen_bit_multiplier_tb"" 
 MESSAGE "Compile Configuration "TESTBENCH_FOR_sixteen_bit_multiplier"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Configuration => TESTBENCH_FOR_sixteen_bit_multiplier" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]" 
