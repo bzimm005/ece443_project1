@@ -1,3 +1,2 @@
-.\src\one_bit_multiplexer.vhd
 .\src\sixteen_bit_multiplexer.vhd
 .\src\Testbench\sixteen_bit_multiplexer_TB.vhd

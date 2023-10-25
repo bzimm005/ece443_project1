@@ -18,44 +18,75 @@ entity sixteen_bit_multiplexer_TB is
 end sixteen_bit_multiplexer_TB;
 
 architecture tb of sixteen_bit_multiplexer_TB is
-
+  signal A, B: std_logic_vector(15 downto 0);
+  signal S0, S1, S2: std_logic;
+  signal R: std_logic_vector(15 downto 0);
+  signal r_overflow: std_logic;
+  
+  -- Component instantiation
   component mux_16bit
     port (
-      a, b: in std_logic_vector(15 downto 0);
-      sel: in std_logic; 
-      y: out std_logic_vector(15 downto 0)
+      A, B: in std_logic_vector(15 downto 0);
+      S0, S1, S2: in std_logic;
+      R: out std_logic_vector(15 downto 0);
+      r_overflow: out std_logic
     );
-  end component;
-  
-  signal a, b, y: std_logic_vector(15 downto 0);
-  signal sel: std_logic;
+  end component; 
 
 begin
-
-  dut: mux_16bit port map (
-  	a => a, 
-  	b => b, 
-	sel => sel, 
-	y => y);
+  DUT : mux_16bit
+    port map (
+      A => A,
+      B => B,
+      S0 => S0,
+      S1 => S1,
+      S2 => S2,
+      R => R,
+      r_overflow => r_overflow
+    );
 
   stimulus: process
   begin
   	
-	-- Test cases 1 and 2 show that the multiplexer can select a specific input and pass it to the output
-    -- Test case 1
-    a <= x"AAAA";
-    b <= x"BBBB";
-    sel <= '0';		-- select input A
-    wait for 10 ns;	
-	-- Expected output = AAAA
-  
-    -- Test case 2  
-    a <= x"AAAA"; 
-    b <= x"BBBB";
-    sel <= '1';	  	-- select input B
+    -- Test Case 1: S0 = '0', S1 = '0', S2 = '0' (Select A)
+    A <= "1100110011001100";   --A = 0xCCCC
+    B <= "0011001100110011";   -- B = 0x3311
+    S0 <= '0';
+    S1 <= '0';
+    S2 <= '0';
     wait for 10 ns;
-	-- Expected output = BBBB
-	
+
+    -- Test Case 2: S0 = '0', S1 = '0', S2 = '1' (Select B)
+    A <= "1100110011001100";   --A = 0xCCCC
+    B <= "0011001100110011";   -- B = 0x3311
+    S0 <= '0';
+    S1 <= '0';
+    S2 <= '1';
+    wait for 10 ns;
+
+    -- Test Case 3: S0 = '0', S1 = '1', S2 = '0' (Select A)
+    A <= "1100110011001100";  -- A = 0xCCCC
+    B <= "0011001100110011";  -- B = 0x3311
+    S0 <= '0';
+    S1 <= '1';
+    S2 <= '0';
+    wait for 10 ns;
+
+    -- Test Case 4: S0 = '0', S1 = '1', S2 = '1' (Select B)
+    A <= "1100110011001100";  -- A = 0xCCCC
+    B <= "0011001100110011";  -- B = 0x3311
+    S0 <= '0';
+    S1 <= '1';
+    S2 <= '1';
+    wait for 10 ns;
+
+    -- Test Case 5: S0 = '1', S1 = '0', S2 = '0' (Select A)
+    A <= x"CCCC";	-- A = 0xCCCC
+    B <= x"3311";	-- B = 0x3311
+    S0 <= '1';
+    S1 <= '0';
+    S2 <= '0';
+    wait for 10 ns;	
 	
     wait;	-- Finish simulation
     

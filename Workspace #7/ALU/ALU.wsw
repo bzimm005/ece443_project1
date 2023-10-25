@@ -19,7 +19,7 @@ tab=lu
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\alu\src/one_bit_multiplexer.vhd|]
 TemplateId=0
 tab=lu
-[OPENDOC|Aldec.Hde.HdePlugIn.7|.\alu\src/Test Bench/alu_TB.vhd|]
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\alu\src\Test Bench\alu_TB.vhd|]
 TemplateId=0
 ActiveDocument=1
 tab=lu

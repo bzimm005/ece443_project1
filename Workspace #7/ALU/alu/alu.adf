@@ -34,7 +34,6 @@ Test Bench/alu_TB.vhd=-1
 .\src\one_bit_multiplexer.vhd=VHDL Source Code
 .\src\sixteen_bit_multiplexer.vhd=VHDL Source Code
 .\src\alu.vhd=VHDL Source Code
-.\src\alu_TB.vhd=VHDL Source Code
 .\src\Test Bench\alu_TB.vhd=VHDL Source Code
 [HierarchyViewer]
 HierarchyInformation=
