@@ -2,7 +2,7 @@
 <design-settings>
 	<plugins>
 		<Aldec.Stimuli.1>
-			<hierarchy activeStimuliSetName="StimuliSet1">
+			<hierarchy>
 				<stimuliSet name="StimuliSet1"/>
 			</hierarchy>
 		</Aldec.Stimuli.1>
