@@ -5,11 +5,11 @@ sixteen_bit_adder=0
 sixteen_bit_subtractor=0
 sixteen_bit_multiplier=0
 [COMPILESTATUS|.\src\sixteen_bit_multiplier.vhd]
-FileTimeLow=31065925
+FileTimeLow=31065953
 Status=Modified
 [COMPILESTATUS|.\src\TestBench\sixteen_bit_multiplier_TB.vhd]
-FileTimeLow=31065925
-Status=Compiled
+FileTimeLow=31065953
+Status=Modified
 [COMPILESTATUS|.\src\TestBench\sixteen_bit_multiplier_TB_runtest.do]
 FileTimeLow=31065925
 Status=Modified

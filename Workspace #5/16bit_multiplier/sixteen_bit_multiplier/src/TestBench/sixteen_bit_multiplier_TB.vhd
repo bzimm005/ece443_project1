@@ -1,6 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use IEEE.numeric_std.all;
+use ieee.numeric_std.all;
 
 	-- Add your library and packages declaration here ...
 
@@ -11,18 +11,16 @@ architecture TB_ARCHITECTURE of sixteen_bit_multiplier_tb is
 	-- Component declaration of the tested unit
 	component sixteen_bit_multiplier
 	port(
-		A : in SIGNED(15 downto 0);
-		B : in SIGNED(15 downto 0);
-		Result : out SIGNED(31 downto 0) );
+		A : in signed(15 downto 0);
+		B : in signed(15 downto 0);
+		Result : out signed(31 downto 0);
+		Overflow : out std_logic );
 	end component;
 
-	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
-	signal A : SIGNED(15 downto 0);
-	signal B : SIGNED(15 downto 0);
-	-- Observed signals - signals mapped to the output ports of tested entity
-	signal Result : SIGNED(31 downto 0);
-
-	-- Add your code here ...
+	signal A : signed(15 downto 0);
+	signal B : signed(15 downto 0);
+	signal Result : signed(31 downto 0);
+	signal Overflow : std_logic;
 
 begin
 
@@ -31,11 +29,12 @@ begin
 		port map (
 			A => A,
 			B => B,
-			Result => Result
+			Result => Result,
+			Overflow => Overflow
 		);
 
 	-- Add your stimulus here ...
-	stimulus: process
+	process
 	begin
 		A <= "0000000000000010"; -- 2
 		B <= "0000000000000010"; -- 2

@@ -1,7 +1,7 @@
-Active-HDL 12.0.118.7745 2023-10-25 09:17:22
+Active-HDL 12.0.118.7745 2023-10-25 12:36:22
 
 Elaboration top modules:
-Architecture                  TB_ARCHITECTURE(sixteen_bit_multiplier_tb)
+VHDL Configuration            testbench_for_sixteen_bit_multiplier
 
 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -9,6 +9,12 @@ Entity                    | Architecture    | Library                | Info | Co
 ----------------------------------------------------------------------------------------------------------------------------
 sixteen_bit_multiplier_tb | TB_ARCHITECTURE | sixteen_bit_multiplier |      | 12.0.118.7745 (Windows) | -O3
 sixteen_bit_multiplier    | Behavioral      | sixteen_bit_multiplier |      | 12.0.118.7745 (Windows) | -O3
+----------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------
+VHDL Configuration                          | Library                | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------------------------------------
+testbench_for_sixteen_bit_multiplier        | sixteen_bit_multiplier |      |                         | <unavailable>
 ----------------------------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -29,7 +35,7 @@ std                                         | Standard VHDL library
 ----------------------------------------------------------------------------------------------------------------------------
 
 
-Simulation Options: asim -O5 +access +r +m+sixteen_bit_multiplier_tb sixteen_bit_multiplier_tb TB_ARCHITECTURE
+Simulation Options: asim -O5 +access +r +m+testbench_for_sixteen_bit_multiplier testbench_for_sixteen_bit_multiplier
 
 
 The performance of simulation is reduced. Version EDU Edition
