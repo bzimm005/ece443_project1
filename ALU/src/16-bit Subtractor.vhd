@@ -19,13 +19,13 @@
 
 library IEEE;
 use IEEE.std_logic_1164.all;
-use IEEE.std_logic_arith.all; 
+use IEEE.numeric_std.all; 
 
 -- 16-bit subtractor
 entity sixteen_bit_subtractor is
   port (
-    A, B : in std_logic_vector(15 downto 0);
-    D : out std_logic_vector(15 downto 0);
+    A, B : in SIGNED(15 downto 0);
+    D : out SIGNED(15 downto 0);
     Borrow : out std_logic
   );
 end sixteen_bit_subtractor;
@@ -33,8 +33,8 @@ end sixteen_bit_subtractor;
 architecture structural of sixteen_bit_subtractor is
 
   -- internal signals
-  signal not_B_sig, adder_out : std_logic_vector(15 downto 0);
-  signal borrow_temp : std_logic;
+  signal not_B_sig : SIGNED(15 downto 0);
+  -- signal borrow_temp : std_logic;
 
   -- XOR gate component
   component xor_gate 
@@ -47,33 +47,39 @@ architecture structural of sixteen_bit_subtractor is
   -- 16-bit adder component
   component sixteen_bit_adder is
     port (
-      A, B : in std_logic_vector(15 downto 0);
-      S : out std_logic_vector(15 downto 0);
-      Cout : out std_logic
+      A, B : in SIGNED(15 downto 0);
+      Sum : out SIGNED(15 downto 0)
     );
   end component;
+  
+  signal adder_out : SIGNED(15 downto 0);
 
 begin
 
   -- Generate the 16 XOR gates
-  	NOT_B: for i in 0 to 15 generate
-    NOT_B_i: xor_gate port map (
-		a => B(i),			 -- B input
-		b => '1',			 -- Invert
-		y => not_B_sig(i));  -- Output to signal
-	end generate;
+--  NOT_B: for i in 0 to 15 generate
+--    	NOT_B_i: xor_gate port map (
+--			a => B(i),			 -- B input
+--			b => '1',			 -- Invert
+--			y => not_B_sig(i));  -- Output to signal
+--	end generate;
 
-  -- 16-bit adder instance
---  ADDER: sixteen_bit_adder port map(
---      A => A,
---      B => not_B_sig,
---      S => adder_out,
---      Cout => borrow_temp
---  );
+  -- Generate the 16-bit inverters (XOR gates)
+  NOT_B: for i in 0 to 15 generate
+    not_B_sig(i) <= A(i) XOR B(i);
+  end generate;
+
+    -- 16-bit adder instance
+    ADDER: sixteen_bit_adder port map(
+        A => A,
+        B => not_B_sig,
+        Sum => adder_out
+    );
+	
+	Borrow <= '1' when adder_out(15) = '1' else '0';
 
   -- Assign outputs
   D <= adder_out;
-  Borrow <= borrow_temp;
 
 end structural;		   
 

@@ -1,4 +1,4 @@
-92
+131
 ~E 1 "../src/Half Adder.vhd" 22 and_gate
 ~A 0 "" 0 and_gate_arch
 ~A 1 "../src/Half Adder.vhd" 28 structural
@@ -19,11 +19,11 @@
 ~A 1 "../src/TestBench/sixteen_bit_adder_TB.vhd" 8 TB_ARCHITECTURE
 ~E 1 "../src/16-bit Subtractor.vhd" 25 sixteen_bit_subtractor
 ~A 1 "../src/16-bit Subtractor.vhd" 33 structural
-~E 1 "../src/TestBench/sixteen_bit_subtractor_TB.vhd" 17 sixteen_bit_subtractor_TB
-~A 1 "../src/TestBench/sixteen_bit_subtractor_TB.vhd" 20 TB_architecture
+~E 1 "../src/TestBench/sixteen_bit_subtractor_TB.vhd" 18 sixteen_bit_subtractor_TB
+~A 1 "../src/TestBench/sixteen_bit_subtractor_TB.vhd" 21 TB_architecture
 ~C 1 "../src/TestBench/full_adder_TB.vhd" 99 testbench_for_full_adder
 ~C 1 "../src/TestBench/half_adder_TB.vhd" 71 testbench_for_half_adder
 ~C 1 "../src/TestBench/sixteen_bit_adder_TB.vhd" 47 testbench_for_sixteen_bit_adder
 ~E 1 "../src/Half Adder.vhd" 37 xor_gate
+~A 1 "../src/16-bit Subtractor.vhd" 13 behavioral
 ~A 1 "../src/Half Adder.vhd" 43 structural
-~A 0 "" 0 xor_gate_arch

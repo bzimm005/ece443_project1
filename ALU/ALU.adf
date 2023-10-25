@@ -25,7 +25,7 @@ FAMILY=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=full_adder_tb|TB_ARCHITECTURE|0 sixteen_bit_adder|structural|0 
+HierarchyInformation=full_adder_tb|TB_ARCHITECTURE|0 sixteen_bit_adder|structural|0
 ShowHide=ShowTopLevel
 Selected=
 
@@ -79,6 +79,7 @@ wave.asdbw\LOCAL___a8242f65030627020000.sid/request=-1
 .\src\halfadderWF.awc=Accelerated Waveform Configuration
 .\src\fulladderWF.asdb=Accelerated Waveform File
 .\src\fulladderWF.awc=Accelerated Waveform Configuration
+.\src\xor_gate.vhd=VHDL Source Code
 .\src\TestBench\half_adder_TB.vhd=VHDL Test Bench
 .\src\TestBench\half_adder_TB_runtest.do=Macro
 .\src\TestBench\full_adder_TB.vhd=VHDL Test Bench
