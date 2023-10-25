@@ -1,0 +1,39 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=alu
+
+[Library]
+alu=.\alu\alu.lib
+
+[$LibMap$]
+alu=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Files]
+/sixteen_bit_multiplexer.vhd=-1
+/sixteen_bit_multiplier.vhd=-1
+/half_adder.vhd=-1
+/full_adder.vhd=-1
+/sixteen_bit_adder.vhd=-1
+/alu.vhd=-1
+
+[Files.Data]
+.\src\sixteen_bit_multiplexer.vhd=VHDL Source Code
+.\src\sixteen_bit_multiplier.vhd=VHDL Source Code
+.\src\half_adder.vhd=VHDL Source Code
+.\src\full_adder.vhd=VHDL Source Code
+.\src\sixteen_bit_adder.vhd=VHDL Source Code
+
+.\src\alu.vhd=VHDL Source Code

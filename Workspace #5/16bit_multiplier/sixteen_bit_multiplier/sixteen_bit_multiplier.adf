@@ -1,0 +1,34 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=sixteen_bit_multiplier
+[Library]
+sixteen_bit_multiplier=.\sixteen_bit_multiplier\sixteen_bit_multiplier.lib
+[$LibMap$]
+sixteen_bit_multiplier=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/sixteen_bit_multiplier.vhd=-1
+TestBench/sixteen_bit_multiplier_TB.vhd=-1
+TestBench/sixteen_bit_multiplier_TB_runtest.do=-1
+[Files.Data]
+.\src\sixteen_bit_multiplier.vhd=VHDL Source Code
+.\src\TestBench\sixteen_bit_multiplier_TB.vhd=VHDL Test Bench
+.\src\TestBench\sixteen_bit_multiplier_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=sixteen_bit_multiplier|Behavioral|0 sixteen_bit_multiplier_tb|TB_ARCHITECTURE|0 
+ShowHide=ShowTopLevel
+Selected=

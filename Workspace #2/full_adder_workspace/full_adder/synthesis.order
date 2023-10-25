@@ -1,0 +1,3 @@
+i<>.\src\Full_Adder.vhd
+i<>.\src\half_adder.vhd
+i<>.\src\TestBench\full_adder_TB.vhd

@@ -1,0 +1,32 @@
+Active-HDL 12.0.118.7745 2023-10-25 08:59:36
+
+Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(halfadder_tb)
+
+
+---------------------------------------------------------------------------------------------------
+Entity       | Architecture    | Library    | Info | Compiler Version        | Compilation Options
+---------------------------------------------------------------------------------------------------
+halfadder_tb | TB_ARCHITECTURE | half_adder |      | 12.0.118.7745 (Windows) | -O3
+halfadder    | structural      | half_adder |      | 12.0.118.7745 (Windows) | -O3
+and_gate     | structural      | half_adder |      | 12.0.118.7745 (Windows) | -O3
+xor_gate     | structural      | half_adder |      | 12.0.118.7745 (Windows) | -O3
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+VHDL Package                   | Library    | Info | Compiler Version        | Compilation Options
+---------------------------------------------------------------------------------------------------
+standard                       | std        |      |                         | <unavailable>
+TEXTIO                         | std        |      |                         | <unavailable>
+std_logic_1164                 | ieee       |      |                         | <unavailable>
+std_logic_arith                | ieee       |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED             | ieee       |      |                         | <unavailable>
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+Library                        | Comment
+---------------------------------------------------------------------------------------------------
+half_adder                     | None
+ieee                           | Standard IEEE packages library
+std                            | Standard VHDL library
+---------------------------------------------------------------------------------------------------

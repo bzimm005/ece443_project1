@@ -1,0 +1,24 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=sixteen_bit_multiplexer
+[Library]
+sixteen_bit_multiplexer=.\sixteen_bit_multiplexer\sixteen_bit_multiplexer.lib
+[$LibMap$]
+sixteen_bit_multiplexer=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/sixteen_bit_multiplexer.vhd=-1
+[Files.Data]
+.\src\sixteen_bit_multiplexer.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0

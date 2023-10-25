@@ -1,0 +1,33 @@
+Active-HDL 12.0.118.7745 2023-10-25 09:10:14
+
+Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(sixteen_bit_adder_tb)
+
+
+------------------------------------------------------------------------------------------------------------------
+Entity               | Architecture    | Library           | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------
+sixteen_bit_adder_tb | TB_ARCHITECTURE | sixteen_bit_adder |      | 12.0.118.7745 (Windows) | -O3
+sixteen_bit_adder    | structural      | sixteen_bit_adder |      | 12.0.118.7745 (Windows) | -O3
+Full_Adder           | structural      | sixteen_bit_adder |      | 12.0.118.7745 (Windows) | -O3
+half_adder           | structural      | sixteen_bit_adder |      | 12.0.118.7745 (Windows) | -O3
+and_gate             | structural      | sixteen_bit_adder |      | 12.0.118.7745 (Windows) | -O3
+xor_gate             | structural      | sixteen_bit_adder |      | 12.0.118.7745 (Windows) | -O3
+------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------
+VHDL Package                           | Library           | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------
+standard                               | std               |      |                         | <unavailable>
+TEXTIO                                 | std               |      |                         | <unavailable>
+std_logic_1164                         | ieee              |      |                         | <unavailable>
+NUMERIC_STD                            | ieee              |      |                         | <unavailable>
+------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------
+Library                                | Comment
+------------------------------------------------------------------------------------------------------------------
+ieee                                   | Standard IEEE packages library
+sixteen_bit_adder                      | None
+std                                    | Standard VHDL library
+------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,25 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+full_adder=1
+Built-in symbols=0
+sixteen_bit_adder=0
+sixteen_bit_subtractor=0
+[COMPILESTATUS|.\src\half_adder.vhd]
+FileTimeLow=31065924
+Status=Compiled
+[COMPILESTATUS|.\src\full_adder.vhd]
+FileTimeLow=31065924
+Status=Compiled
+[COMPILESTATUS|.\src\sixteen_bit_adder.vhd]
+FileTimeLow=31065924
+Status=Compiled
+[COMPILESTATUS|.\src\sixteen_bit_subtractor.vhd]
+FileTimeLow=31065925
+Status=Compiled
+[COMPILESTATUS|.\src\TestBench\sixteen_bit_subtractor_TB.vhd]
+FileTimeLow=31065925
+Status=Modified
+[COMPILESTATUS|.\src\TestBench\sixteen_bit_subtractor_TB_runtest.do]
+FileTimeLow=31065925
+Status=Modified
+[CACHEDOC|Aldec.Project.Generic.7|.\sixteen_bit_subtractor\sixteen_bit_subtractor.adf|]
+Path=/sixteen_bit_subtractor_TB

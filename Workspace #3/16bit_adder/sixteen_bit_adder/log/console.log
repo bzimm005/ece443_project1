@@ -1,0 +1,111 @@
+# Design: Design sixteen_bit_adder already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work sixteen_bit_adder -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #3/16bit_adder/sixteen_bit_adder/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #3/16bit_adder/sixteen_bit_adder/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #3/16bit_adder/sixteen_bit_adder/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_adder
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+sixteen_bit_adder sixteen_bit_adder structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6212 kB (elbread=257 elab2=5815 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder\src\wave.asdb
+#  9:09 AM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work sixteen_bit_adder -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/TestBench/sixteen_bit_adder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #3/16bit_adder/sixteen_bit_adder/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #3/16bit_adder/sixteen_bit_adder/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #3/16bit_adder/sixteen_bit_adder/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #3/16bit_adder/sixteen_bit_adder/src/TestBench/sixteen_bit_adder_TB.vhd
+# Compile Entity "sixteen_bit_adder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "sixteen_bit_adder_tb"
+# Compile Configuration "TESTBENCH_FOR_sixteen_bit_adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+sixteen_bit_adder_tb sixteen_bit_adder_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work sixteen_bit_adder -2002  $dsn/src/TestBench/sixteen_bit_adder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #3/16bit_adder/sixteen_bit_adder/src/TestBench/sixteen_bit_adder_TB.vhd
+# Compile Entity "sixteen_bit_adder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "sixteen_bit_adder_tb"
+# Compile Configuration "TESTBENCH_FOR_sixteen_bit_adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6213 kB (elbread=257 elab2=5816 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder\src\wave.asdb
+#  9:10 AM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.

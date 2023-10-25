@@ -1,0 +1,44 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=half_adder
+
+[Library]
+half_adder=.\half_adder\half_adder.lib
+
+[$LibMap$]
+half_adder=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[Files]
+/halfadder.vhd=-1
+/..\..\..\..\Workspace#1\half_adder_workspace\half_adder\src\halfadderwave.awc=-1
+TestBench/halfadder_TB.vhd=-1
+TestBench/halfadder_TB_runtest.do=-1
+
+[Files.Data]
+.\src\halfadder.vhd=VHDL Source Code
+.\..\..\..\Workspace#1\half_adder_workspace\half_adder\src\halfadderwave.awc=Accelerated Waveform Configuration
+.\src\TestBench\halfadder_TB.vhd=VHDL Test Bench
+.\src\TestBench\halfadder_TB_runtest.do=Macro
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=halfadder_tb|TB_ARCHITECTURE|0  
+ShowHide=ShowTopLevel
+Selected=

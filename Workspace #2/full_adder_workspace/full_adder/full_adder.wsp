@@ -1,0 +1,20 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+full_adder=1
+Built-in symbols=0
+[COMPILESTATUS|.\src\Full_Adder.vhd]
+FileTimeLow=31065923
+Status=Compiled
+[COMPILESTATUS|.\src\half_adder.vhd]
+FileTimeLow=31065923
+Status=Compiled
+[COMPILESTATUS|.\src\TestBench\full_adder_TB.vhd]
+FileTimeLow=31065924
+Status=Modified
+[COMPILESTATUS|.\src\TestBench\full_adder_TB_runtest.do]
+FileTimeLow=31065923
+Status=Modified
+[CACHEDOC|Aldec.WaveFormASDB.7|.\full_adder\src/fulladderWF.awc|]
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////yoBAAB9AAAAfwcAAB8DAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAA"
+[CACHEDOC|Aldec.Project.Generic.7|.\full_adder\full_adder.adf|]
+Path=/Full_Adder

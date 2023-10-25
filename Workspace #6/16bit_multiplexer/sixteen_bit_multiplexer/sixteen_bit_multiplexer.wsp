@@ -1,0 +1,12 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+full_adder=1
+Built-in symbols=0
+sixteen_bit_adder=0
+sixteen_bit_subtractor=0
+sixteen_bit_multiplier=0
+sixteen_bit_multiplexer=0
+[COMPILESTATUS|.\src\sixteen_bit_multiplexer.vhd]
+FileTimeLow=31065926
+Status=Modified
+[CACHEDOC|Aldec.Project.Generic.7|.\sixteen_bit_multiplexer\sixteen_bit_multiplexer.adf|]
+Path=
