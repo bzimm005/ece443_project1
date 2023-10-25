@@ -1,4 +1,6 @@
-2
+22
+~E 1 "../src/alu.vhd" 6 alu
+~A 1 "../src/alu.vhd" 14 structural
 ~E 1 "../src/half_adder.vhd" 22 and_gate
 ~A 1 "../src/half_adder.vhd" 28 structural
 ~E 1 "../src/full_adder.vhd" 32 Full_Adder
@@ -7,5 +9,7 @@
 ~A 1 "../src/half_adder.vhd" 60 structural
 ~E 1 "../src/sixteen_bit_adder.vhd" 23 sixteen_bit_adder
 ~A 1 "../src/sixteen_bit_adder.vhd" 30 structural
+~E 1 "../src/sixteen_bit_multiplier.vhd" 8 sixteen_bit_multiplier
+~A 1 "../src/sixteen_bit_multiplier.vhd" 16 Behavioral
 ~E 1 "../src/half_adder.vhd" 37 xor_gate
 ~A 1 "../src/half_adder.vhd" 43 structural
