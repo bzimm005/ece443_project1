@@ -23,6 +23,7 @@ FAMILY=
 /sixteen_bit_subtractor.vhd=-1
 TestBench/sixteen_bit_subtractor_TB.vhd=-1
 TestBench/sixteen_bit_subtractor_TB_runtest.do=-1
+/half_adder.vhd=-1
 [Files.Data]
 .\src\half_adder.vhd=VHDL Source Code
 .\src\full_adder.vhd=VHDL Source Code
@@ -30,11 +31,12 @@ TestBench/sixteen_bit_subtractor_TB_runtest.do=-1
 .\src\sixteen_bit_subtractor.vhd=VHDL Source Code
 .\src\TestBench\sixteen_bit_subtractor_TB.vhd=VHDL Test Bench
 .\src\TestBench\sixteen_bit_subtractor_TB_runtest.do=Macro
+.\src\half_adder.vhd=VHDL Source Code
 [Groups]
 TestBench=1
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=sixteen_bit_subtractor|structural|0 sixteen_bit_subtractor_tb|TB_architecture|0 
+HierarchyInformation=sixteen_bit_subtractor|structural|0 sixteen_bit_subtractor_tb|TB_architecture|0
 ShowHide=ShowTopLevel
 Selected=

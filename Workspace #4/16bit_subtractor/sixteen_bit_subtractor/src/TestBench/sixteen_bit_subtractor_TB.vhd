@@ -52,6 +52,18 @@ begin
     B_tb <= "0000000000001000";	-- 0x0008 or 8
 	-- Correct output: 0x0002 = 0000000000000010
 
+	    -- Test case 2
+    wait for 20 ns;
+    A_tb <= "1111111111110101"; -- -11
+    B_tb <= "0000000000000111"; -- 7
+	-- Correct output: 0xFFFE = -18
+	
+    -- Test case 3
+    wait for 20 ns;
+    A_tb <= "1000000000001000"; -- -128
+    B_tb <= "1000000000001001"; -- -127
+	-- Correct output: 0xFFFF = -1
+	
     wait for 10 ns;
 
     wait;
