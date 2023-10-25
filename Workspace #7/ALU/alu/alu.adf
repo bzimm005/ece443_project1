@@ -25,6 +25,7 @@ fileopenfolder=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer
 /one_bit_multiplexer.vhd=-1
 /sixteen_bit_multiplexer.vhd=-1
 /alu.vhd=-1
+Test Bench/alu_TB.vhd=-1
 [Files.Data]
 .\src\half_adder.vhd=VHDL Source Code
 .\src\full_adder.vhd=VHDL Source Code
@@ -33,7 +34,11 @@ fileopenfolder=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer
 .\src\one_bit_multiplexer.vhd=VHDL Source Code
 .\src\sixteen_bit_multiplexer.vhd=VHDL Source Code
 .\src\alu.vhd=VHDL Source Code
+.\src\alu_TB.vhd=VHDL Source Code
+.\src\Test Bench\alu_TB.vhd=VHDL Source Code
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+[Groups]
+Test Bench=1
