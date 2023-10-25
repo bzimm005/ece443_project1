@@ -1,0 +1,712 @@
+# Design: Design "sixteen_bit_multiplexer" has been set as active.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Top-level unit(s) detected:
+# Entity => mux_16bit
+# Warning: ELAB1_0026: sixteen_bit_multiplexer.vhd : (38, 0): There is no default binding for component "mux_1bit". (No entity named "mux_1bit" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# Error: You do not have valid license to run Testbench generation
+# Contact Aldec for ordering information - sales@aldec.com
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "mux_16bit_tb"
+# Compile Architecture "tb" of Entity "mux_16bit_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Warning: ELAB1_0026: sixteen_bit_multiplexer.vhd : (45, 0): There is no default binding for component "mux_1bit". (No entity named "mux_1bit" was found).
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (142, 3): Unknown identifier "y_overflow".
+# Error: COMP96_0133: sixteen_bit_multiplexer.vhd : (142, 3): Cannot find object declaration.
+# Compile failure 2 Errors 1 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: sixteen_bit_multiplexer.vhd : (144, 21): ';' expected.
+# Error: COMP96_0019: sixteen_bit_multiplexer.vhd : (145, 69): Keyword 'end' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Error: COMP96_0111: sixteen_bit_multiplexer.vhd : (154, 5): Labels do not match.
+# Error: COMP96_0016: sixteen_bit_multiplexer.vhd : (154, 12): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Warning: ELAB1_0026: sixteen_bit_multiplexer.vhd : (45, 0): There is no default binding for component "mux_1bit". (No entity named "mux_1bit" was found).
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (147, 9): Unknown identifier "y_overflow".
+# Error: COMP96_0133: sixteen_bit_multiplexer.vhd : (147, 9): Cannot find object declaration.
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (149, 9): Unknown identifier "y_overflow".
+# Error: COMP96_0133: sixteen_bit_multiplexer.vhd : (149, 9): Cannot find object declaration.
+# Compile failure 4 Errors 1 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Warning: ELAB1_0026: sixteen_bit_multiplexer.vhd : (46, 0): There is no default binding for component "mux_1bit". (No entity named "mux_1bit" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Error: COMP96_0019: sixteen_bit_multiplexer.vhd : (43, 1): Keyword 'begin' expected.
+# Error: COMP96_0016: sixteen_bit_multiplexer.vhd : (43, 14): Design unit declaration expected.
+# Error: COMP96_0018: sixteen_bit_multiplexer.vhd : (51, 1): Identifier expected.
+# Error: COMP96_0016: sixteen_bit_multiplexer.vhd : (54, 3): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Error: COMP96_0019: sixteen_bit_multiplexer.vhd : (43, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: sixteen_bit_multiplexer.vhd : (43, 15): Design unit declaration expected.
+# Error: COMP96_0018: sixteen_bit_multiplexer.vhd : (51, 1): Identifier expected.
+# Error: COMP96_0016: sixteen_bit_multiplexer.vhd : (54, 3): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Warning: ELAB1_0026: sixteen_bit_multiplexer.vhd : (46, 0): There is no default binding for component "mux_1bit". (No entity named "mux_1bit" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# Compile Entity "mux_16bit"
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (40, 14): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: sixteen_bit_multiplexer.vhd : (40, 14): Unknown type.
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (41, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: sixteen_bit_multiplexer.vhd : (41, 13): Unknown type.
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (42, 12): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: sixteen_bit_multiplexer.vhd : (42, 12): Unknown type.
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (43, 18): Unknown identifier "std_logic".
+# Error: COMP96_0064: sixteen_bit_multiplexer.vhd : (43, 18): Unknown type.
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Compile failure 8 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (40, 14): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: sixteen_bit_multiplexer.vhd : (40, 14): Unknown type.
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (41, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: sixteen_bit_multiplexer.vhd : (41, 13): Unknown type.
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (42, 12): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: sixteen_bit_multiplexer.vhd : (42, 12): Unknown type.
+# Error: COMP96_0078: sixteen_bit_multiplexer.vhd : (43, 18): Unknown identifier "std_logic".
+# Error: COMP96_0064: sixteen_bit_multiplexer.vhd : (43, 18): Unknown type.
+# Error: VLM_0029: sixteen_bit_multiplexer.vhd : (47, 1): Entity "mux_16bit" not found.
+# Error: COMP96_0056: sixteen_bit_multiplexer.vhd : (47, 1): Cannot find referenced entity declaration "mux_16bit".
+# Compile failure 10 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Error: COMP96_0078: one_bit_multiplexer.vhd : (4, 20): Unknown identifier "std_logic".
+# Error: COMP96_0064: one_bit_multiplexer.vhd : (4, 20): Unknown type.
+# Error: COMP96_0078: one_bit_multiplexer.vhd : (5, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: one_bit_multiplexer.vhd : (5, 13): Unknown type.
+# Compile Architecture "behav" of Entity "mux_1bit"
+# Error: COMP96_0301: one_bit_multiplexer.vhd : (11, 3): The choice 'others' must be present when all alternatives are not covered.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Compile failure 5 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Architecture "structural" of Entity "mux_16bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6553 kB (elbread=427 elab2=5986 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  1:31 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Error: COMP96_0010: Testbench/sixteen_bit_multiplexer_TB.vhd : (59, 10): Invalid literal.
+# Error: COMP96_0010: Testbench/sixteen_bit_multiplexer_TB.vhd : (60, 10): Invalid literal.
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Error: COMP96_0029: Testbench/sixteen_bit_multiplexer_TB.vhd : (59, 10): Expression expected.
+# Error: COMP96_0029: Testbench/sixteen_bit_multiplexer_TB.vhd : (60, 10): Expression expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6553 kB (elbread=427 elab2=5986 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  1:39 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Error: COMP96_0367: Testbench/sixteen_bit_multiplexer_TB.vhd : (59, 10): Improper array length (4). Expected length is 16.
+# Error: COMP96_0367: Testbench/sixteen_bit_multiplexer_TB.vhd : (60, 10): Improper array length (4). Expected length is 16.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6553 kB (elbread=427 elab2=5986 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  1:45 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6554 kB (elbread=427 elab2=5987 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  1:53 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6553 kB (elbread=427 elab2=5986 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  2:03 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Error: COMP96_0077: Testbench/sixteen_bit_multiplexer_TB.vhd : (62, 12): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Error: COMP96_0077: Testbench/sixteen_bit_multiplexer_TB.vhd : (62, 12): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6553 kB (elbread=427 elab2=5986 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  2:06 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6553 kB (elbread=427 elab2=5986 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  2:07 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Library Manager: Library "sixteen_bit_multiplexer" contents cleared.
+acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Top-level unit(s) detected:
+# Entity => sixteen_bit_multiplexer_TB
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6553 kB (elbread=427 elab2=5986 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  2:08 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6553 kB (elbread=427 elab2=5986 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  2:09 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+run @10ns
+# KERNEL: stopped at time: 10 ns
+run @20
+# VSIM: Error: 20ps is less than current simulation time.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6553 kB (elbread=427 elab2=5986 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  2:09 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/wave.asdb'.
+run @25ns
+# KERNEL: stopped at time: 25 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace#6/16bit_multiplexer/sixteen_bit_multiplexer/src/16bit_TB.asdb'.
+# Adding file C:\Users\emily\Git\ece443_project1\Workspace#6\16bit_multiplexer\sixteen_bit_multiplexer\src\16bit_TB.asdb ... Done
+# Adding file C:\Users\emily\Git\ece443_project1\Workspace#6\16bit_multiplexer\sixteen_bit_multiplexer\src\16bit_TB.awc ... Done
+endsim
+# VSIM: Simulation has finished.
