@@ -1,634 +1,126 @@
 # ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
+# ELBREAD: Error: Architecture 'structural' of entity 'sixteen_bit_adder' not found in library 'alu'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -O3 -e 100 -work alu -2002  $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
 # Compile Entity "sixteen_bit_multiplier"
 # Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
 # Compile Entity "and_gate"
 # Compile Architecture "structural" of Entity "and_gate"
 # Compile Entity "xor_gate"
 # Compile Architecture "structural" of Entity "xor_gate"
 # Compile Entity "half_adder"
 # Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
 # Compile Entity "Full_Adder"
 # Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
 # Compile Entity "sixteen_bit_adder"
 # Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "ALU"
-# Error: COMP96_0018: alu.vhd : (11, 1): Identifier expected.
-# Error: COMP96_0015: alu.vhd : (11, 1): ')' expected.
-# Error: COMP96_0015: alu.vhd : (11, 1): ';' expected.
-# Error: COMP96_0019: alu.vhd : (11, 5): Keyword 'end' expected.
-# Compile Entity "sixteen_bit_adder"
-# Warning: COMP96_0994: alu.vhd : (13, 1): Multiple entity "sixteen_bit_adder" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd".
-# Error: COMP96_0078: alu.vhd : (15, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (15, 15): Unknown type.
-# Error: COMP96_0078: alu.vhd : (16, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (16, 15): Unknown type.
-# Compile Entity "sixteen_bit_multiplier"
-# Warning: COMP96_0994: alu.vhd : (20, 1): Multiple entity "sixteen_bit_multiplier" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd".
-# Error: COMP96_0078: alu.vhd : (22, 19): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (22, 19): Unknown type.
-# Error: COMP96_0078: alu.vhd : (23, 22): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (23, 22): Unknown type.
-# Error: COMP96_0078: alu.vhd : (24, 18): Unknown identifier "std_logic".
-# Error: COMP96_0064: alu.vhd : (24, 18): Unknown type.
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0056: alu.vhd : (28, 1): Cannot find referenced entity declaration "ALU".
-# Compile failure 15 Errors 3 Warnings  Analysis time :  0.2 [s]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "ALU"
-# Error: COMP96_0018: alu.vhd : (11, 1): Identifier expected.
-# Error: COMP96_0015: alu.vhd : (11, 1): ')' expected.
-# Error: COMP96_0015: alu.vhd : (11, 1): ';' expected.
-# Error: COMP96_0019: alu.vhd : (11, 5): Keyword 'end' expected.
-# Compile Entity "sixteen_bit_adder"
-# Warning: COMP96_0994: alu.vhd : (13, 1): Multiple entity "sixteen_bit_adder" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd".
-# Error: COMP96_0078: alu.vhd : (15, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (15, 15): Unknown type.
-# Error: COMP96_0078: alu.vhd : (16, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (16, 15): Unknown type.
-# Compile Entity "sixteen_bit_multiplier"
-# Warning: COMP96_0994: alu.vhd : (20, 1): Multiple entity "sixteen_bit_multiplier" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd".
-# Error: COMP96_0078: alu.vhd : (22, 19): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (22, 19): Unknown type.
-# Error: COMP96_0078: alu.vhd : (23, 22): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (23, 22): Unknown type.
-# Error: COMP96_0078: alu.vhd : (24, 18): Unknown identifier "std_logic".
-# Error: COMP96_0064: alu.vhd : (24, 18): Unknown type.
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0056: alu.vhd : (28, 1): Cannot find referenced entity declaration "ALU".
-# Compile failure 15 Errors 3 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Error: COMP96_0018: alu.vhd : (11, 1): Identifier expected.
-# Error: COMP96_0015: alu.vhd : (11, 1): ')' expected.
-# Error: COMP96_0015: alu.vhd : (11, 1): ';' expected.
-# Error: COMP96_0019: alu.vhd : (11, 5): Keyword 'end' expected.
-# Compile Entity "sixteen_bit_adder"
-# Warning: COMP96_0994: alu.vhd : (13, 1): Multiple entity "sixteen_bit_adder" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd".
-# Error: COMP96_0078: alu.vhd : (15, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (15, 15): Unknown type.
-# Error: COMP96_0078: alu.vhd : (16, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (16, 15): Unknown type.
-# Compile Entity "sixteen_bit_multiplier"
-# Warning: COMP96_0994: alu.vhd : (20, 1): Multiple entity "sixteen_bit_multiplier" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd".
-# Error: COMP96_0078: alu.vhd : (22, 19): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (22, 19): Unknown type.
-# Error: COMP96_0078: alu.vhd : (23, 22): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (23, 22): Unknown type.
-# Error: COMP96_0078: alu.vhd : (24, 18): Unknown identifier "std_logic".
-# Error: COMP96_0064: alu.vhd : (24, 18): Unknown type.
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0056: alu.vhd : (28, 1): Cannot find referenced entity declaration "ALU".
-# Compile failure 15 Errors 3 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Error: COMP96_0018: alu.vhd : (11, 2): Identifier expected.
-# Compile Entity "sixteen_bit_adder"
-# Warning: COMP96_0994: alu.vhd : (14, 1): Multiple entity "sixteen_bit_adder" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd".
-# Error: COMP96_0078: alu.vhd : (16, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (16, 15): Unknown type.
-# Error: COMP96_0078: alu.vhd : (17, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (17, 15): Unknown type.
-# Compile Entity "sixteen_bit_multiplier"
-# Warning: COMP96_0994: alu.vhd : (21, 1): Multiple entity "sixteen_bit_multiplier" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd".
-# Error: COMP96_0078: alu.vhd : (23, 19): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (23, 19): Unknown type.
-# Error: COMP96_0078: alu.vhd : (24, 22): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (24, 22): Unknown type.
-# Error: COMP96_0078: alu.vhd : (25, 18): Unknown identifier "std_logic".
-# Error: COMP96_0064: alu.vhd : (25, 18): Unknown type.
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0056: alu.vhd : (29, 1): Cannot find referenced entity declaration "ALU".
-# Compile failure 12 Errors 3 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Entity "sixteen_bit_adder"
-# Warning: COMP96_0994: alu.vhd : (14, 1): Multiple entity "sixteen_bit_adder" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd".
-# Error: COMP96_0078: alu.vhd : (16, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (16, 15): Unknown type.
-# Error: COMP96_0078: alu.vhd : (17, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (17, 15): Unknown type.
-# Compile Entity "sixteen_bit_multiplier"
-# Warning: COMP96_0994: alu.vhd : (21, 1): Multiple entity "sixteen_bit_multiplier" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd".
-# Error: COMP96_0078: alu.vhd : (23, 19): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (23, 19): Unknown type.
-# Error: COMP96_0078: alu.vhd : (24, 22): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (24, 22): Unknown type.
-# Error: COMP96_0078: alu.vhd : (25, 18): Unknown identifier "std_logic".
-# Error: COMP96_0064: alu.vhd : (25, 18): Unknown type.
-# Compile Architecture "structural" of Entity "ALU"
-# Warning: DAGGEN_0002: alu.vhd : (32, 0): Process has no effect - no sequential statements.
-# Warning: DAGGEN_0001: alu.vhd : (32, 0): Process without explicit or implicit wait statement - possible infinite loop.
-# Compile failure 10 Errors 5 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Entity "sixteen_bit_adder"
-# Warning: COMP96_0994: alu.vhd : (14, 1): Multiple entity "sixteen_bit_adder" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd".
-# Error: COMP96_0078: alu.vhd : (16, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (16, 15): Unknown type.
-# Error: COMP96_0078: alu.vhd : (17, 15): Unknown identifier "SIGNED".
-# Error: COMP96_0064: alu.vhd : (17, 15): Unknown type.
-# Compile Entity "sixteen_bit_multiplier"
-# Warning: COMP96_0994: alu.vhd : (21, 1): Multiple entity "sixteen_bit_multiplier" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd".
-# Error: COMP96_0078: alu.vhd : (23, 19): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (23, 19): Unknown type.
-# Error: COMP96_0078: alu.vhd : (24, 22): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (24, 22): Unknown type.
-# Error: COMP96_0078: alu.vhd : (25, 18): Unknown identifier "std_logic".
-# Error: COMP96_0064: alu.vhd : (25, 18): Unknown type.
-# Compile Architecture "structural" of Entity "ALU"
-# Warning: DAGGEN_0002: alu.vhd : (32, 0): Process has no effect - no sequential statements.
-# Warning: DAGGEN_0001: alu.vhd : (32, 0): Process without explicit or implicit wait statement - possible infinite loop.
-# Compile failure 10 Errors 5 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Entity "sixteen_bit_adder"
-# Warning: COMP96_0994: alu.vhd : (14, 1): Multiple entity "sixteen_bit_adder" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd".
-# Error: COMP96_0078: alu.vhd : (16, 15): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (16, 15): Unknown type.
-# Error: COMP96_0078: alu.vhd : (17, 15): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (17, 15): Unknown type.
-# Compile Entity "sixteen_bit_multiplier"
-# Warning: COMP96_0994: alu.vhd : (21, 1): Multiple entity "sixteen_bit_multiplier" found in "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd", "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd".
-# Error: COMP96_0078: alu.vhd : (23, 19): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (23, 19): Unknown type.
-# Error: COMP96_0078: alu.vhd : (24, 22): Unknown identifier "signed".
-# Error: COMP96_0064: alu.vhd : (24, 22): Unknown type.
-# Error: COMP96_0078: alu.vhd : (25, 18): Unknown identifier "std_logic".
-# Error: COMP96_0064: alu.vhd : (25, 18): Unknown type.
-# Compile Architecture "structural" of Entity "ALU"
-# Warning: DAGGEN_0002: alu.vhd : (32, 0): Process has no effect - no sequential statements.
-# Warning: DAGGEN_0001: alu.vhd : (32, 0): Process without explicit or implicit wait statement - possible infinite loop.
-# Compile failure 10 Errors 5 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Error: COMP96_0016: alu.vhd : (14, 1): Design unit declaration expected.
-# Compile Architecture "structural" of Entity "ALU"
-# Warning: DAGGEN_0002: alu.vhd : (32, 0): Process has no effect - no sequential statements.
-# Warning: DAGGEN_0001: alu.vhd : (32, 0): Process without explicit or implicit wait statement - possible infinite loop.
-# Compile failure 1 Errors 3 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Error: COMP96_0016: alu.vhd : (14, 1): Design unit declaration expected.
-# Compile Architecture "structural" of Entity "ALU"
-# Warning: DAGGEN_0002: alu.vhd : (32, 0): Process has no effect - no sequential statements.
-# Warning: DAGGEN_0001: alu.vhd : (32, 0): Process without explicit or implicit wait statement - possible infinite loop.
-# Compile failure 1 Errors 3 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Error: COMP96_0016: alu.vhd : (14, 1): Design unit declaration expected.
-# Compile Architecture "structural" of Entity "ALU"
-# Warning: DAGGEN_0002: alu.vhd : (32, 0): Process has no effect - no sequential statements.
-# Warning: DAGGEN_0001: alu.vhd : (32, 0): Process without explicit or implicit wait statement - possible infinite loop.
-# Compile failure 1 Errors 3 Warnings  Analysis time :  79.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Error: COMP96_0016: alu.vhd : (14, 1): Design unit declaration expected.
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0078: alu.vhd : (32, 14): Unknown identifier "sixteen_bit_adder".
-# Error: COMP96_0134: alu.vhd : (32, 14): Cannot find component declaration.
-# Error: COMP96_0078: alu.vhd : (39, 22): Unknown identifier "sixteen_bit_multiplier".
-# Error: COMP96_0134: alu.vhd : (39, 22): Cannot find component declaration.
-# Compile failure 5 Errors 1 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Error: COMP96_0016: alu.vhd : (14, 1): Design unit declaration expected.
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0078: alu.vhd : (32, 14): Unknown identifier "sixteen_bit_adder".
-# Error: COMP96_0134: alu.vhd : (32, 14): Cannot find component declaration.
-# Error: COMP96_0078: alu.vhd : (39, 22): Unknown identifier "sixteen_bit_multiplier".
-# Error: COMP96_0134: alu.vhd : (39, 22): Cannot find component declaration.
-# Compile failure 5 Errors 1 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Error: COMP96_0016: alu.vhd : (14, 1): Design unit declaration expected.
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0078: alu.vhd : (32, 14): Unknown identifier "sixteen_bit_adder".
-# Error: COMP96_0134: alu.vhd : (32, 14): Cannot find component declaration.
-# Error: COMP96_0078: alu.vhd : (39, 22): Unknown identifier "sixteen_bit_multiplier".
-# Error: COMP96_0134: alu.vhd : (39, 22): Cannot find component declaration.
-# Compile failure 5 Errors 1 Warnings  Analysis time :  79.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Error: COMP96_0016: alu.vhd : (14, 1): Design unit declaration expected.
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0078: alu.vhd : (32, 14): Unknown identifier "sixteen_bit_adder".
-# Error: COMP96_0134: alu.vhd : (32, 14): Cannot find component declaration.
-# Error: COMP96_0078: alu.vhd : (39, 22): Unknown identifier "sixteen_bit_multiplier".
-# Error: COMP96_0134: alu.vhd : (39, 22): Cannot find component declaration.
-# Error: COMP96_0078: alu.vhd : (51, 22): Unknown identifier "adder_result".
-# Error: COMP96_0133: alu.vhd : (51, 22): Cannot find object declaration.
-# Error: COMP96_0077: alu.vhd : (51, 22): Undefined type of expression. Expected type 'SIGNED'.
-# Error: COMP96_0078: alu.vhd : (53, 22): Unknown identifier "multiplier_result".
-# Error: COMP96_0133: alu.vhd : (53, 22): Cannot find object declaration.
-# Error: COMP96_0077: alu.vhd : (53, 22): Undefined type of expression. Expected type 'SIGNED'.
-# Compile failure 11 Errors 1 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
 # Compile Entity "alu"
 # Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0367: alu.vhd : (45, 20): Improper array length (16). Expected length is 32.
-# Error: COMP96_0104: alu.vhd : (46, 9): Undefined type of expression.
-# Compile failure 2 Errors 1 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/one_bit_multiplexer.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
 # Compile Entity "and_gate"
 # Compile Architecture "structural" of Entity "and_gate"
 # Compile Entity "xor_gate"
 # Compile Architecture "structural" of Entity "xor_gate"
 # Compile Entity "half_adder"
 # Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
 # Compile Entity "Full_Adder"
 # Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
 # Compile Entity "sixteen_bit_adder"
 # Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0367: alu.vhd : (45, 20): Improper array length (16). Expected length is 32.
-# Error: COMP96_0152: alu.vhd : (46, 21): Formal "Overflow" of class signal must be associated with a signal.
-# Compile failure 2 Errors 1 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
 # Compile Entity "sixteen_bit_multiplier"
 # Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# Library Manager: Library "alu" contents cleared.
+acom -reorder -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
 # Compile Entity "and_gate"
 # Compile Architecture "structural" of Entity "and_gate"
 # Compile Entity "xor_gate"
 # Compile Architecture "structural" of Entity "xor_gate"
 # Compile Entity "half_adder"
 # Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
 # Compile Entity "Full_Adder"
 # Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
 # Compile Entity "sixteen_bit_adder"
 # Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0152: alu.vhd : (47, 21): Formal "Overflow" of class signal must be associated with a signal.
-# Error: COMP96_0367: alu.vhd : (56, 22): Improper array length (32). Expected length is 16.
-# Compile failure 2 Errors 1 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
 # Compile Entity "sixteen_bit_multiplier"
 # Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Top-level unit(s) detected:
+# Entity => mux_16bit
+# Entity => alu
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
 # Compile Entity "and_gate"
 # Compile Architecture "structural" of Entity "and_gate"
 # Compile Entity "xor_gate"
 # Compile Architecture "structural" of Entity "xor_gate"
 # Compile Entity "half_adder"
 # Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
 # Compile Entity "Full_Adder"
 # Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
 # Compile Entity "sixteen_bit_adder"
 # Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0104: alu.vhd : (47, 9): Undefined type of expression.
-# Error: COMP96_0367: alu.vhd : (56, 22): Improper array length (32). Expected length is 16.
-# Compile failure 2 Errors 1 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
 # Compile Entity "sixteen_bit_multiplier"
 # Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
 # Compile Entity "alu"
 # Compile Architecture "structural" of Entity "ALU"
-# Error: COMP96_0367: alu.vhd : (57, 22): Improper array length (32). Expected length is 16.
-# Compile failure 1 Errors 1 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work alu -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Warning: COMP96_0003: Source file "C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd" is empty.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# C
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

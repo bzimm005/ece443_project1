@@ -1,1 +1,2 @@
-sixteen_bit_adder ENTITY
+mux_16bit ENTITY
+alu ENTITY
