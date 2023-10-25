@@ -17,8 +17,55 @@ REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
 [Files]
+/one_bit_multiplexer.vhd=-1
 /sixteen_bit_multiplexer.vhd=-1
+/..\..\..\..\Workspace#6\16bit_multiplexer\sixteen_bit_multiplexer\src\16bit_TB.asdb=-1
+/..\..\..\..\Workspace#6\16bit_multiplexer\sixteen_bit_multiplexer\src\16bit_TB.awc=-1
+Testbench/sixteen_bit_multiplexer_TB.vhd=-1
 [Files.Data]
+.\src\one_bit_multiplexer.vhd=VHDL Source Code
 .\src\sixteen_bit_multiplexer.vhd=VHDL Source Code
+.\..\..\..\Workspace#6\16bit_multiplexer\sixteen_bit_multiplexer\src\16bit_TB.asdb=Accelerated Waveform File
+.\..\..\..\Workspace#6\16bit_multiplexer\sixteen_bit_multiplexer\src\16bit_TB.awc=Accelerated Waveform Configuration
+.\src\Testbench\sixteen_bit_multiplexer_TB.vhd=VHDL Test Bench
 [SpecTracer]
 WindowVisible=0
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension0=alintws
+name1=Coverage Databases
+directory1=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension1=acdb
+name2=Dll Libraries
+directory2=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension2=dll
+name3=Event Lists
+directory3=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension3=lst
+name4=HTML Files
+directory4=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension4=htm;html
+name5=Log Files
+directory5=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension8=pdf
+name9=Profiler Databases
+directory9=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension9=tbp
+name10=Script Files
+directory10=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\
+extension11=asdb;awc;asdbc;asdbe
+[Groups]
+Testbench=1

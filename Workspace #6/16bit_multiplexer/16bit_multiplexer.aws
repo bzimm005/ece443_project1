@@ -10,3 +10,5 @@ order=1
 macro=
 [Expand]
 sixteen_bit_multiplexer=1
+[Settings]
+Active=sixteen_bit_multiplexer
