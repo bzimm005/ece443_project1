@@ -1,32 +1,42 @@
-Active-HDL 12.0.118.7745 2023-10-25 08:59:36
+Active-HDL 13.0.376.8320 2023-10-25 18:05:45
 
 Elaboration top modules:
-Architecture                  TB_ARCHITECTURE(halfadder_tb)
+VHDL Configuration            testbench_for_halfadder
 
 
----------------------------------------------------------------------------------------------------
-Entity       | Architecture    | Library    | Info | Compiler Version        | Compilation Options
----------------------------------------------------------------------------------------------------
-halfadder_tb | TB_ARCHITECTURE | half_adder |      | 12.0.118.7745 (Windows) | -O3
-halfadder    | structural      | half_adder |      | 12.0.118.7745 (Windows) | -O3
-and_gate     | structural      | half_adder |      | 12.0.118.7745 (Windows) | -O3
-xor_gate     | structural      | half_adder |      | 12.0.118.7745 (Windows) | -O3
----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+Entity       | Architecture    | Library    | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------
+halfadder_tb | TB_ARCHITECTURE | half_adder |      | 13.0.376.8320 (Windows64) | -O3
+halfadder    | structural      | half_adder |      | 13.0.376.8320 (Windows64) | -O3
+and_gate     | structural      | half_adder |      | 13.0.376.8320 (Windows64) | -O3
+xor_gate     | structural      | half_adder |      | 13.0.376.8320 (Windows64) | -O3
+-----------------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------
-VHDL Package                   | Library    | Info | Compiler Version        | Compilation Options
----------------------------------------------------------------------------------------------------
-standard                       | std        |      |                         | <unavailable>
-TEXTIO                         | std        |      |                         | <unavailable>
-std_logic_1164                 | ieee       |      |                         | <unavailable>
-std_logic_arith                | ieee       |      |                         | <unavailable>
-STD_LOGIC_UNSIGNED             | ieee       |      |                         | <unavailable>
----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+VHDL Configuration             | Library    | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------
+testbench_for_halfadder        | half_adder |      | 13.0.376.8320 (Windows64) | -O3
+-----------------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+VHDL Package                   | Library    | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------
+standard                       | std        |      |                           | <unavailable>
+TEXTIO                         | std        |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                 | ieee       |      | 13.0.376.8320 (Windows64) |  -2008
+-----------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------
 Library                        | Comment
----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 half_adder                     | None
 ieee                           | Standard IEEE packages library
 std                            | Standard VHDL library
----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+testbench_for_halfadder testbench_for_halfadder
+
+
+The performance of simulation is reduced. Version Student Edition

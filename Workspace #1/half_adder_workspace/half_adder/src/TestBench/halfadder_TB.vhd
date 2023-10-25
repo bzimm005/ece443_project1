@@ -1,9 +1,5 @@
 library ieee;
-use ieee.STD_LOGIC_UNSIGNED.all;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
-
-	-- Add your library and packages declaration here ...
 
 entity halfadder_tb is
 end halfadder_tb;
@@ -15,7 +11,8 @@ architecture TB_ARCHITECTURE of halfadder_tb is
 		A : in STD_LOGIC;
 		B : in STD_LOGIC;
 		Sum : out STD_LOGIC;
-		Cout : out STD_LOGIC );
+		Cout : out STD_LOGIC 
+		);
 	end component;
 
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
@@ -25,8 +22,6 @@ architecture TB_ARCHITECTURE of halfadder_tb is
 	-- Observed signals - signals mapped to the output ports of tested entity
 	signal Sum : STD_LOGIC;
 	signal Cout : STD_LOGIC;
-
-	-- Add your code here ...
 
 begin
 
@@ -46,7 +41,7 @@ begin
 		-- Test Case 1: A = 0, B = 0
 		A <= '0';
 		B <= '0';
-		wait for 10 ns; -- this is needed for simulation
+		wait for 10 ns; -- delay to allow for simulation
 			
 		-- Test Case 2: A = 1, B = 0
 		A <= '1';
@@ -63,7 +58,7 @@ begin
 		B <= '1';
 		wait for 10 ns;
 	
-		wait;
+		wait; 			--end simulation
 	end process;
 	
 end TB_ARCHITECTURE;
@@ -71,7 +66,7 @@ end TB_ARCHITECTURE;
 configuration TESTBENCH_FOR_halfadder of halfadder_tb is
 	for TB_ARCHITECTURE
 		for UUT : halfadder
-			use entity work.halfadder(behavioral);
+			use entity work.halfadder(structural);
 		end for;
 	end for;
 end TESTBENCH_FOR_halfadder;

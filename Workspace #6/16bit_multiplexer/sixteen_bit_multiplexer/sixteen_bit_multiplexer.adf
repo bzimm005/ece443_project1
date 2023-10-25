@@ -19,14 +19,9 @@ FAMILY=
 [Files]
 /sixteen_bit_multiplexer.vhd=-1
 Testbench/sixteen_bit_multiplexer_TB.vhd=-1
-/sixteen_bit_multiplexer.vhd=-1
-/sixteen_bit_multiplexer.vhd=-1
 [Files.Data]
-.\src\one_bit_multiplexer.vhd=VHDL Source Code
 .\src\sixteen_bit_multiplexer.vhd=VHDL Source Code
 .\src\Testbench\sixteen_bit_multiplexer_TB.vhd=VHDL Test Bench
-.\src\sixteen_bit_multiplexer.vhd=VHDL Source Code
-.\src\sixteen_bit_multiplexer.vhd=VHDL Source Code
 [SpecTracer]
 WindowVisible=0
 [folders]
@@ -69,6 +64,6 @@ extension11=asdb;awc;asdbc;asdbe
 [Groups]
 Testbench=1
 [HierarchyViewer]
-HierarchyInformation=sixteen_bit_multiplexer_tb|tb|0
+HierarchyInformation=mux_16bit|structural|0 sixteen_bit_multiplexer_tb|tb|0
 ShowHide=ShowTopLevel
 Selected=

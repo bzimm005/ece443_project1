@@ -28,7 +28,6 @@
 --
 -------------------------------------------------------------------------------
 
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -91,7 +90,7 @@ architecture structural of halfadder is
   
   begin	
 	  
-   -- Instantiage AND and XOR gates 
+   -- Instantiate AND and XOR gates 
    U1: and_gate 
      port map(
           a => A,

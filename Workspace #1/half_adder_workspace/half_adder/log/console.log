@@ -1,5 +1,167 @@
 # ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'TB_ARCHITECTURE' of entity 'halfadder_tb' not found in library 'half_adder'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Library Manager: Library "half_adder" contents cleared.
+acom -reorder -O3 -e 100 -work half_adder -2002  $dsn/src/halfadder.vhd $dsn/src/TestBench/halfadder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/halfadder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "halfadder"
+# Compile Architecture "structural" of Entity "halfadder"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/TestBench/halfadder_TB.vhd
+# Compile Entity "halfadder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "halfadder_tb"
+# Compile Configuration "TESTBENCH_FOR_halfadder"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_halfadder
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0080 halfadder_TB.vhd (34): Design unit behavioral:halfadder instantiated in half_adder.halfadder_tb(TB_ARCHITECTURE) not found in searched libraries: half_adder.
 # ELBREAD: Elaboration time 0.0 [s].
-# Waveform file 'C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/halfadderwave.awc' connected to 'C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/wave.asdb'.
-# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/wave.asdb'.
-# Waveform file 'C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/halfadderwave.awc' connected to 'C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/wave.asdb'.
+asim -O5 +access +r +m+testbench_for_halfadder testbench_for_halfadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0080 halfadder_TB.vhd (34): Design unit behavioral:halfadder instantiated in half_adder.halfadder_tb(TB_ARCHITECTURE) not found in searched libraries: half_adder.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 halfadder_TB.vhd (34): Component /halfadder_tb/UUT : halfadder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #1\half_adder_workspace\half_adder\src\wave.asdb
+#  5:57 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Library Manager: Library "half_adder" contents cleared.
+acom -reorder -O3 -e 100 -work half_adder -2002  $dsn/src/halfadder.vhd $dsn/src/TestBench/halfadder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/halfadder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "halfadder"
+# Compile Architecture "structural" of Entity "halfadder"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/TestBench/halfadder_TB.vhd
+# Compile Entity "halfadder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "halfadder_tb"
+# Compile Configuration "TESTBENCH_FOR_halfadder"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_halfadder
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0080 halfadder_TB.vhd (32): Design unit behavioral:halfadder instantiated in half_adder.halfadder_tb(TB_ARCHITECTURE) not found in searched libraries: half_adder.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0080 halfadder_TB.vhd (32): Design unit behavioral:halfadder instantiated in half_adder.halfadder_tb(TB_ARCHITECTURE) not found in searched libraries: half_adder.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+testbench_for_halfadder testbench_for_halfadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0080 halfadder_TB.vhd (32): Design unit behavioral:halfadder instantiated in half_adder.halfadder_tb(TB_ARCHITECTURE) not found in searched libraries: half_adder.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 halfadder_TB.vhd (32): Component /halfadder_tb/UUT : halfadder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #1\half_adder_workspace\half_adder\src\wave.asdb
+#  6:01 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Library Manager: Library "half_adder" contents cleared.
+acom -reorder -O3 -e 100 -work half_adder -2002  $dsn/src/halfadder.vhd $dsn/src/TestBench/halfadder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/Git/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/halfadder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "halfadder"
+# Compile Architecture "structural" of Entity "halfadder"
+# File: C:/Users/emily/Git/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/TestBench/halfadder_TB.vhd
+# Compile Entity "halfadder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "halfadder_tb"
+# Compile Configuration "TESTBENCH_FOR_halfadder"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_halfadder
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+testbench_for_halfadder testbench_for_halfadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5856 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\Git\ece443_project1\Workspace #1\half_adder_workspace\half_adder\src\wave.asdb
+#  6:05 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/Git/ece443_project1/Workspace #1/half_adder_workspace/half_adder/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.

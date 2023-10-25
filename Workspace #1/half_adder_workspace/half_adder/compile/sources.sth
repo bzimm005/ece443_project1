@@ -1,11 +1,7 @@
 [Files List]
-C:\Aldec\Active-HDL-12\vlib\std/src/standard.vhd=S
-C:\Aldec\Active-HDL-12\vlib\std/src/textio.vhd=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/std_logic_1164.vhdl=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/std_logic_1164-body.vhdl=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/arith_p.vhd=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/arith_b.vhd=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/unsigned_p.vhd=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/unsigned_b.vhd=S
-C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #1\half_adder_workspace\half_adder/src/halfadder.vhd=S
-C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #1\half_adder_workspace\half_adder/src/TestBench/halfadder_TB.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Users\emily\Git\ece443_project1\Workspace #1\half_adder_workspace\half_adder/src/halfadder.vhd=S
+C:\Users\emily\Git\ece443_project1\Workspace #1\half_adder_workspace\half_adder/src/TestBench/halfadder_TB.vhd=S
