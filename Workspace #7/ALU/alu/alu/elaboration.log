@@ -1,4 +1,4 @@
-Active-HDL 12.0.118.7745 2023-10-25 19:45:19
+Active-HDL 12.0.118.7745 2023-10-25 21:25:08
 
 Elaboration top modules:
 Architecture                  testbench(alu_tb)
@@ -12,7 +12,6 @@ alu                    | structural   | alu     |      | 12.0.118.7745 (Windows)
 sixteen_bit_adder      | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
 sixteen_bit_subtractor | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
 sixteen_bit_multiplier | Behavioral   | alu     |      | 12.0.118.7745 (Windows) | -O3
-mux_16bit              | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
 Full_Adder             | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
 half_adder             | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3
 and_gate               | structural   | alu     |      | 12.0.118.7745 (Windows) | -O3

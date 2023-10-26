@@ -64,6 +64,6 @@ extension11=asdb;awc;asdbc;asdbe
 [Groups]
 Testbench=1
 [HierarchyViewer]
-HierarchyInformation=sixteen_bit_multiplexer_tb|tb|0   
+HierarchyInformation=sixteen_bit_multiplexer_tb|tb|0    
 ShowHide=ShowTopLevel
 Selected=

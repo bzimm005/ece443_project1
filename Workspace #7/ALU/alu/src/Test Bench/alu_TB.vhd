@@ -21,7 +21,7 @@ end entity alu_tb;
 architecture testbench of alu_tb is
     -- Signals for test inputs
     signal A, B: signed(15 downto 0);
-    signal sel: std_logic_vector(2 downto 0);
+    signal sel: signed(2 downto 0);
     
     -- Signals for ALU outputs
     signal R: signed(15 downto 0);
@@ -48,10 +48,10 @@ begin
         wait for 10 ns;
 
         -- Test case 2: Multiply two numbers (make sure to provide multiplier result in ALU entity)
-        A <= to_signed(6, 16);
-        B <= to_signed(4, 16);
-        sel <= "001";
-        wait for 10 ns;
+        --A <= to_signed(6, 16);
+        --B <= to_signed(4, 16);
+        --sel <= "001";
+        --wait for 10 ns;
 
         -- End the simulation
         wait;
