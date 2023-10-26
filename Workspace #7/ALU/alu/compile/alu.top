@@ -1,2 +1,2 @@
-alu_tb ENTITY
 mux_16bit ENTITY
+alu ENTITY

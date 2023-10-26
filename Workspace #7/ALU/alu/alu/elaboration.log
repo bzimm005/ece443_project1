@@ -1,13 +1,13 @@
-Active-HDL 13.0.376.8320 2023-10-25 22:50:40
+Active-HDL 13.0.376.8320 2023-10-25 23:10:27
 
 Elaboration top modules:
-Architecture                  testbench(alu_tb)
+Architecture                  test(tb_alu)
 
 
 ---------------------------------------------------------------------------------------------------------
 Entity                 | Architecture | Library | Info | Compiler Version          | Compilation Options
 ---------------------------------------------------------------------------------------------------------
-alu_tb                 | testbench    | alu     |      | 13.0.376.8320 (Windows64) | -O3
+tb_alu                 | test         | alu     |      | 13.0.376.8320 (Windows64) | -O3
 alu                    | structural   | alu     |      | 13.0.376.8320 (Windows64) | -O3
 sixteen_bit_adder      | structural   | alu     |      | 13.0.376.8320 (Windows64) | -O3
 sixteen_bit_subtractor | structural   | alu     |      | 13.0.376.8320 (Windows64) | -O3

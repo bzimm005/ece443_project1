@@ -172,3 +172,7 @@ Status=Compiled
 FileTimeLow=2676376937
 FileTimeHigh=31066014
 Status=Compiled
+[COMPILESTATUS|.\src\Test Bench\alu_TB.vhd]
+FileTimeLow=1079241774
+FileTimeHigh=31066043
+Status=Modified

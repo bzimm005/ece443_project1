@@ -15,54 +15,72 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity alu_tb is
-end entity alu_tb;
+entity tb_alu is
+end entity;
 
-architecture testbench of alu_tb is
-    -- Signals for test inputs
-    signal A, B: signed(15 downto 0);
-    signal sel: signed(2 downto 0);
-    
-    -- Signals for ALU outputs
-    signal R: signed(15 downto 0);
-    signal status: std_logic_vector(2 downto 0);
+architecture test of tb_alu is
 
+  -- Component Declaration
+  component alu
+    port (
+      A, B: in signed(15 downto 0);
+      R: out signed(15 downto 0);
+      sel: in signed(2 downto 0);
+      status: out std_logic_vector(2 downto 0));
+  end component;
+
+  -- Stimulus signals
+  signal A_test, B_test: signed(15 downto 0);
+  signal R_test: signed(15 downto 0);
+  signal sel_test: signed(2 downto 0);
+  signal status_test: std_logic_vector(2 downto 0);
+  
 begin
-    -- Instantiate the ALU
-    uut: entity work.alu
-        port map (
-            A => A,
-            B => B,
-            sel => sel,
-            R => R,
-            status => status
-        );
 
-    -- Stimulus generation process
-    process
-    begin
-        -- Test case 1: Add two numbers
-        A <= to_signed(5, 16);
-        B <= to_signed(7, 16);
-        sel <= "000";
-        wait for 10 ns;
+  -- Connect testbench signals with alu ports
+  dut: alu port map (
+    A => A_test,
+    B => B_test,
+    R => R_test,
+    sel => sel_test,
+    status => status_test);
 
-        -- Test case 2: Multiply two numbers (make sure to provide multiplier result in ALU entity)
-        --A <= to_signed(6, 16);
-        --B <= to_signed(4, 16);
-        --sel <= "001";
-        --wait for 10 ns;
+  -- Generate stimuli
+  stim_proc: process
+  begin
+  
+    -- Test case 1: A + B
+    A_test <= "0000000000110100"; -- 52
+    B_test <= "0000000000010010"; -- 18 
+    sel_test <= "000"; -- Select adder
+    wait for 50 ns;
 
-        -- End the simulation
-        wait;
-    end process;
+    -- Test case 2: A - B
+    A_test <= "0000000001001000"; -- 72
+    B_test <= "0000000000001010"; -- 10
+    sel_test <= "100"; -- Select subtractor 
+    wait for 50 ns;
 
+    -- Test case 3: A * B 
+    A_test <= "0000000010000000"; -- 80  
+    B_test <= "0000000010000000"; -- 80
+    sel_test <= "001"; -- Select multiplier	
+	-- Result = 0x4000
+    wait for 50 ns;
+
+    -- Finish simulation
+    wait;
+	end process;
+	
     -- Monitor the ALU outputs and status
-    process
-    begin
-        wait for 20 ns;  -- Wait for a sufficient time to capture results
-        --report "ALU Output (R) = " & to_string(R);
-        --report "ALU Status = " & to_string(status);
-        wait;
-    end process;
-end architecture testbench;
+  	monitor: process
+  	begin
+  
+    	wait for 100 ns; 
+    	report "R = " & integer'image(to_integer(R_test));
+    	report "Status = " & integer'image(to_integer(unsigned(status_test)));
+    
+    	wait;
+  	end process;
+  
+end architecture;
