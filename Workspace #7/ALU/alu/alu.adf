@@ -3,17 +3,13 @@ Current Flow=Generic
 VCS=0
 version=4
 Current Config=compile
-
 [Configurations]
 compile=alu
-
 [Library]
 alu=.\alu\alu.lib
-
 [$LibMap$]
 alu=.
 Active_lib=
-
 [Settings]
 FLOW_TYPE=HDL
 LANGUAGE=VHDL
@@ -21,37 +17,29 @@ REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
 fileopenfolder=C:\Users\emily\Git\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src
-
 [HierarchyViewer]
-HierarchyInformation=alu_tb|testbench|0   
+HierarchyInformation=alu_tb|testbench|0
 ShowHide=ShowTopLevel
 Selected=
-
-[Groups]
-Test Bench=1
-
 [SpecTracer]
 WindowVisible=0
-
 [Files]
 /half_adder.vhd=-1
 /full_adder.vhd=-1
 /sixteen_bit_adder.vhd=-1
+/sixteen_bit_subtractor.vhd=-1
 /sixteen_bit_multiplier.vhd=-1
-/one_bit_multiplexer.vhd=-1
 /sixteen_bit_multiplexer.vhd=-1
 /alu.vhd=-1
-/sixteen_bit_subtractor.vhd=-1
 Test Bench/alu_TB.vhd=-1
-
 [Files.Data]
 .\src\half_adder.vhd=VHDL Source Code
 .\src\full_adder.vhd=VHDL Source Code
 .\src\sixteen_bit_adder.vhd=VHDL Source Code
+.\src\sixteen_bit_subtractor.vhd=VHDL Source Code
 .\src\sixteen_bit_multiplier.vhd=VHDL Source Code
-.\src\one_bit_multiplexer.vhd=VHDL Source Code
 .\src\sixteen_bit_multiplexer.vhd=VHDL Source Code
 .\src\alu.vhd=VHDL Source Code
-.\src\sixteen_bit_subtractor.vhd=VHDL Source Code
 .\src\Test Bench\alu_TB.vhd=VHDL Source Code
-
+[Groups]
+Test Bench=1
