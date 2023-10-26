@@ -1,6 +1,6 @@
-7
+19
 ~E 1 "../src/sixteen_bit_multiplier.vhd" 8 sixteen_bit_multiplier
 ~A 1 "../src/sixteen_bit_multiplier.vhd" 16 Behavioral
-~E 1 "../src/TestBench/sixteen_bit_multiplier_TB.vhd" 7 sixteen_bit_multiplier_tb
-~A 1 "../src/TestBench/sixteen_bit_multiplier_TB.vhd" 10 TB_ARCHITECTURE
-~C 1 "../src/TestBench/sixteen_bit_multiplier_TB.vhd" 48 testbench_for_sixteen_bit_multiplier
+~E 1 "../src/TestBench/sixteen_bit_multiplier_TB.vhd" 5 sixteen_bit_multiplier_tb
+~A 1 "../src/TestBench/sixteen_bit_multiplier_TB.vhd" 8 TB_ARCHITECTURE
+~C 1 "../src/TestBench/sixteen_bit_multiplier_TB.vhd" 55 testbench_for_sixteen_bit_multiplier

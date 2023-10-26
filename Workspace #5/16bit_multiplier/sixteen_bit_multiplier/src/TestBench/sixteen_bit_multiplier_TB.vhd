@@ -2,8 +2,6 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-	-- Add your library and packages declaration here ...
-
 entity sixteen_bit_multiplier_tb is
 end sixteen_bit_multiplier_tb;
 
@@ -33,13 +31,22 @@ begin
 			Overflow => Overflow
 		);
 
-	-- Add your stimulus here ...
+	-- Add stimulus
 	process
 	begin
+		
+		-- Test Case 1
 		A <= "0000000000000010"; -- 2
 		B <= "0000000000000010"; -- 2
-		wait for 100 ns;
-
+		-- Result = 4
+		wait for 10 ns;
+		
+				-- Test Case 2
+		A <= "0000000000000011"; -- 3
+		B <= "0000000000001001"; -- 9
+		-- Result = 27 = 0000001B
+		wait for 10 ns;
+		
 		wait;
 	end process;
 
