@@ -95,7 +95,7 @@ begin
 		wait;
 	end process;
 	
-	--R <= result;
+	R <= result;
 	
 	-- Status flags logic
     process (sel, adder_result, subtractor_result, multiplier_result)
