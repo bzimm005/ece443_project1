@@ -50,7 +50,7 @@ begin
   stimulus: process
   begin
   	
-	-- Example values selectin A1
+	-- Arbitrarily chose example values
     A0 <= "0101010101010101";  
     A1 <= "1010101010101010";  
     A2 <= "1111111111111111";  
@@ -59,8 +59,14 @@ begin
     A5 <= "0011001100110011";
     A6 <= "0101010101010101";
     A7 <= "1010101010101010";
-    sel <= "001";  -- Set the selection as needed
+    
+	-- Test Case 1
+	sel <= "001";   -- Setting selection to what will be multiplication 
     wait for 10 ns; -- result should show A1	
+		
+	-- Test Case 2
+	sel <= "011";   -- Setting selection to what will be Passthrough B
+    wait for 10 ns; -- result should show A3
 	
     wait;	-- Finish simulation
     

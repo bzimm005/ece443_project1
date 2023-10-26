@@ -8,11 +8,11 @@
 -------------------------------------------------------------------------------
 --
 -- Description: 
--- A 16-bit  multiplexer works br utilizing a 4-bit control signal, 
--- as 2^4 = 16, which enables the selection of one of the 16 data inputs. 
+-- A 16-bit  multiplexer works by which enabling the selection of one of the 
+-- 16 data inputs. 
 -- The output of the multiplexer will be the data value from the selected input. 
 -- The 16-bit width indicates that each data input and the output can handle 16 
--- individual binarr digits, or bits.  
+-- individual binary digits, or bits.  
 --
 --
 --------------------------------------------------------------------------------
@@ -25,7 +25,7 @@ entity mux_16bit is
   port (
   A0, A1, A2, A3, A4, A5, A6, A7 : in signed(15 downto 0);	 --16-bit inputs
   	sel : in signed(2 downto 0);
-    result: out signed(15 downto 0)	 --16-bit output  
+    result: out signed(15 downto 0)	  				         --16-bit output  
   );
 end mux_16bit;
 
