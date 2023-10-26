@@ -1,11 +1,11 @@
 [Files List]
-C:\Aldec\Active-HDL-12\vlib\std/src/standard.vhd=S
-C:\Aldec\Active-HDL-12\vlib\std/src/textio.vhd=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/std_logic_1164.vhdl=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/std_logic_1164-body.vhdl=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/numeric_std.vhdl=S
-C:\Aldec\Active-HDL-12\vlib\ieee/src/numeric_std-body.vhdl=S
-C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder/src/half_adder.vhd=S
-C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder/src/full_adder.vhd=S
-C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder/src/sixteen_bit_adder.vhd=S
-C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder/src/TestBench/sixteen_bit_adder_TB.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std-body.vhdl=S
+C:\Users\emily\Git\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder/src/half_adder.vhd=S
+C:\Users\emily\Git\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder/src/full_adder.vhd=S
+C:\Users\emily\Git\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder/src/sixteen_bit_adder.vhd=S
+C:\Users\emily\Git\ece443_project1\Workspace #3\16bit_adder\sixteen_bit_adder/src/TestBench/sixteen_bit_adder_TB.vhd=S

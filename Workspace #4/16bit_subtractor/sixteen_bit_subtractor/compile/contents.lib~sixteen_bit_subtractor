@@ -1,4 +1,4 @@
-26
+37
 ~E 1 "../src/half_adder.vhd" 22 and_gate
 ~A 1 "../src/half_adder.vhd" 28 structural
 ~E 1 "../src/full_adder.vhd" 32 Full_Adder
