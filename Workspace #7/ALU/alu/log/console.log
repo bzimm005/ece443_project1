@@ -33,6 +33,360 @@ acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd
 # File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
 # Compile Entity "alu_tb"
 # Compile Architecture "testbench" of Entity "alu_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Error: COMP96_0393: alu.vhd : (105, 12): Cannot read output : "R".
+# Error: COMP96_0118: alu.vhd : (105, 17): Keyword 'others' is not allowed in unconstrained array aggregate.
+# Error: COMP96_0393: alu.vhd : (110, 12): Cannot read output : "R".
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim -O5 +access +r +m+alu_tb alu_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
+#  10:08 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+run
+# EXECUTION:: NOTE   : other selected
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__67.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__92.
+# EXECUTION:: NOTE   : adder selected
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__67.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Error: COMP96_0019: alu.vhd : (61, 1): Keyword 'begin' expected.
+# Error: COMP96_0016: alu.vhd : (61, 8): Design unit declaration expected.
+# Error: COMP96_0019: alu.vhd : (117, 28): Keyword 'of' expected.
+# Error: COMP96_0018: alu.vhd : (117, 28): Identifier expected.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.2 [s]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Error: COMP96_0019: alu.vhd : (61, 1): Keyword 'begin' expected.
+# Error: COMP96_0016: alu.vhd : (61, 8): Design unit declaration expected.
+# Error: COMP96_0019: alu.vhd : (117, 28): Keyword 'of' expected.
+# Error: COMP96_0018: alu.vhd : (117, 28): Identifier expected.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Error: COMP96_0122: alu.vhd : (61, 1): Symbol "R" has already been declared in this scope.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
@@ -90,11 +444,627 @@ asim -O5 +access +r +m+alu_tb alu_tb testbench
 # KERNEL: Kernel process initialization done.
 # Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
 # KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
-#  9:09 PM, Wednesday, October 25, 2023
+#  10:10 PM, Wednesday, October 25, 2023
 #  Simulation has been initialized
 run
 # EXECUTION:: NOTE   : other selected
-# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__111.
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__69.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__96.
+# EXECUTION:: NOTE   : adder selected
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__69.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Error: COMP96_0118: alu.vhd : (109, 22): Keyword 'others' is not allowed in unconstrained array aggregate.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Error: COMP96_0118: alu.vhd : (109, 22): Keyword 'others' is not allowed in unconstrained array aggregate.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+alu_tb alu_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
+#  10:20 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+run
+# EXECUTION:: NOTE   : other selected
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__69.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__96.
+# EXECUTION:: NOTE   : adder selected
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__69.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 8,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 10,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 11,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 15,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 16,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 19,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 22,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 25,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 28,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 31,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 34,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 37,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 40,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 43,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 46,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 49,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 52,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 55,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 58,  Instance: /alu_tb/uut,  Process: line__96.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+alu_tb alu_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
+#  10:21 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+run
+# EXECUTION:: NOTE   : other selected
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__71.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__98.
+# EXECUTION:: NOTE   : adder selected
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__71.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 8,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 10,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 11,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 15,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 16,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 19,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 22,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 25,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 28,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 31,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 34,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 37,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 40,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 43,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 46,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 49,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 52,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 55,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 58,  Instance: /alu_tb/uut,  Process: line__98.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+alu_tb alu_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
+#  10:21 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+run
+# EXECUTION:: NOTE   : other selected
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__72.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__99.
+# EXECUTION:: NOTE   : adder selected
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__72.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 8,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 10,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 11,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 15,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 16,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 19,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 22,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 25,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 28,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 31,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 34,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 37,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 40,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 43,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 46,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 49,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 52,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 55,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 58,  Instance: /alu_tb/uut,  Process: line__99.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+alu_tb alu_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work alu -2002  $dsn/src/alu.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
+#  10:22 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+run
+# EXECUTION:: NOTE   : other selected
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__73.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__100.
+# EXECUTION:: NOTE   : adder selected
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__73.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 8,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 10,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 11,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 15,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 16,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 19,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 22,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 25,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 28,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 31,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 34,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 37,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 40,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 43,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 46,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 49,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 52,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 55,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 58,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+alu_tb alu_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work alu -2002  $dsn/src/alu.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
+#  10:22 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+run
+# EXECUTION:: NOTE   : other selected
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__73.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__100.
+# EXECUTION:: NOTE   : adder selected
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__73.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 8,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 10,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 11,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 15,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 16,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 19,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 22,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 25,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 28,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 31,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 34,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 37,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 40,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 43,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 46,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 49,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 52,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 55,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 58,  Instance: /alu_tb/uut,  Process: line__100.
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
 endsim
 # VSIM: Simulation has finished.
@@ -128,16 +1098,140 @@ acom -O3 -e 100 -work alu -2002  $dsn/src/alu.vhd
 # KERNEL: Kernel process initialization done.
 # Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
 # KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
-#  9:09 PM, Wednesday, October 25, 2023
+#  10:23 PM, Wednesday, October 25, 2023
 #  Simulation has been initialized
 run
 # EXECUTION:: NOTE   : other selected
-# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__111.
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__73.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__100.
 # EXECUTION:: NOTE   : adder selected
-# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__111.
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__73.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 7,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 8,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 10,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 11,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 15,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 16,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 19,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 22,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 25,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 28,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 31,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 34,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 37,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 40,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 43,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 46,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 49,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 52,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 55,  Instance: /alu_tb/uut,  Process: line__100.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 58,  Instance: /alu_tb/uut,  Process: line__100.
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
 endsim
 # VSIM: Simulation has finished.
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0019: alu.vhd : (74, 5): Keyword 'end' expected.
+# Error: COMP96_0016: alu.vhd : (74, 10): Design unit declaration expected.
+# Error: COMP96_0019: alu.vhd : (122, 28): Keyword 'of' expected.
+# Error: COMP96_0018: alu.vhd : (122, 28): Identifier expected.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "structural" of Entity "and_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "structural" of Entity "xor_gate"
+# Compile Entity "half_adder"
+# Compile Architecture "structural" of Entity "half_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "structural" of Entity "Full_Adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
+# Compile Entity "sixteen_bit_adder"
+# Compile Architecture "structural" of Entity "sixteen_bit_adder"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
+# Compile Entity "sixteen_bit_multiplier"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
+# Compile Entity "mux_1bit"
+# Compile Architecture "structural" of Entity "mux_1bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "ALU"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0019: alu.vhd : (74, 4): Keyword 'end' expected.
+# Error: COMP96_0016: alu.vhd : (74, 9): Design unit declaration expected.
+# Error: COMP96_0019: alu.vhd : (122, 28): Keyword 'of' expected.
+# Error: COMP96_0018: alu.vhd : (122, 28): Identifier expected.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "testbench" of Entity "alu_tb"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
@@ -171,7 +1265,7 @@ acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd
 # File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
 # Compile Entity "alu_tb"
 # Compile Architecture "testbench" of Entity "alu_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
 asim -O5 +access +r +m+alu_tb alu_tb testbench
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
@@ -194,227 +1288,15 @@ asim -O5 +access +r +m+alu_tb alu_tb testbench
 # KERNEL: Kernel process initialization done.
 # Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
 # KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
-#  9:10 PM, Wednesday, October 25, 2023
+#  10:26 PM, Wednesday, October 25, 2023
 #  Simulation has been initialized
 run
 # EXECUTION:: NOTE   : other selected
-# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__111.
-# EXECUTION:: NOTE   : adder selected
-# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__111.
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-run
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+alu_tb alu_tb testbench
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-acom -O3 -e 100 -work alu -2002  $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Architecture "structural" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 6252 kB (elbread=260 elab2=5849 kernel=142 sdf=0)
-# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
-#  9:14 PM, Wednesday, October 25, 2023
-#  Simulation has been initialized
-run
-# EXECUTION:: NOTE   : other selected
-# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__112.
-# EXECUTION:: NOTE   : adder selected
-# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__112.
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+alu_tb alu_tb testbench
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-acom -O3 -e 100 -work alu -2002  $dsn/src/alu.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Architecture "structural" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 6251 kB (elbread=260 elab2=5848 kernel=142 sdf=0)
-# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
-#  9:16 PM, Wednesday, October 25, 2023
-#  Simulation has been initialized
-run
-# EXECUTION:: NOTE   : other selected
-# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__112.
-# EXECUTION:: NOTE   : adder selected
-# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__112.
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
-# Compile Entity "mux_1bit"
-# Compile Architecture "structural" of Entity "mux_1bit"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Compile Entity "mux_16bit"
-# Compile Architecture "structural" of Entity "mux_16bit"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Architecture "structural" of Entity "ALU"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
-# Compile Entity "sixteen_bit_subtractor"
-# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "testbench" of Entity "alu_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-asim -O5 +access +r +m+alu_tb alu_tb testbench
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 6251 kB (elbread=260 elab2=5848 kernel=142 sdf=0)
-# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
-#  9:24 PM, Wednesday, October 25, 2023
-#  Simulation has been initialized
-run
-# EXECUTION:: NOTE   : other selected
-# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__112.
-# EXECUTION:: NOTE   : adder selected
-# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__112.
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work alu -2002  $dsn/src/half_adder.vhd $dsn/src/full_adder.vhd $dsn/src/sixteen_bit_adder.vhd $dsn/src/sixteen_bit_multiplier.vhd $dsn/src/one_bit_multiplexer.vhd $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/alu.vhd $dsn/src/sixteen_bit_subtractor.vhd "$dsn/src/Test Bench/alu_TB.vhd"
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/half_adder.vhd
-# Compile Entity "and_gate"
-# Compile Architecture "structural" of Entity "and_gate"
-# Compile Entity "xor_gate"
-# Compile Architecture "structural" of Entity "xor_gate"
-# Compile Entity "half_adder"
-# Compile Architecture "structural" of Entity "half_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/full_adder.vhd
-# Compile Entity "Full_Adder"
-# Compile Architecture "structural" of Entity "Full_Adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_adder.vhd
-# Compile Entity "sixteen_bit_adder"
-# Compile Architecture "structural" of Entity "sixteen_bit_adder"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplier.vhd
-# Compile Entity "sixteen_bit_multiplier"
-# Compile Architecture "Behavioral" of Entity "sixteen_bit_multiplier"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/one_bit_multiplexer.vhd
-# Compile Entity "mux_1bit"
-# Compile Architecture "structural" of Entity "mux_1bit"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_multiplexer.vhd
-# Compile Entity "mux_16bit"
-# Compile Architecture "structural" of Entity "mux_16bit"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/alu.vhd
-# Compile Entity "alu"
-# Compile Architecture "structural" of Entity "ALU"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/sixteen_bit_subtractor.vhd
-# Compile Entity "sixteen_bit_subtractor"
-# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
-# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #7/ALU/alu/src/Test Bench/alu_TB.vhd
-# Compile Entity "alu_tb"
-# Compile Architecture "testbench" of Entity "alu_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-asim -O5 +access +r +m+alu_tb alu_tb testbench
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 6251 kB (elbread=260 elab2=5848 kernel=142 sdf=0)
-# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #7\ALU\alu\src\wave.asdb
-#  9:25 PM, Wednesday, October 25, 2023
-#  Simulation has been initialized
-run
-# EXECUTION:: NOTE   : other selected
-# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__112.
-# EXECUTION:: NOTE   : adder selected
-# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /alu_tb/uut,  Process: line__112.
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__73.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__101.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alu_tb/uut,  Process: line__101.
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
 endsim
 # VSIM: Simulation has finished.

@@ -1,4 +1,4 @@
-67
+90
 ~E 1 "../src/alu.vhd" 7 alu
 ~A 1 "../src/alu.vhd" 15 structural
 ~E 1 "../src/Test Bench/alu_TB.vhd" 18 alu_tb
@@ -9,7 +9,7 @@
 ~A 1 "../src/full_adder.vhd" 39 structural
 ~E 1 "../src/half_adder.vhd" 52 half_adder
 ~A 1 "../src/half_adder.vhd" 60 structural
-~E 1 "../src/sixteen_bit_multiplexer.vhd" 23 mux_16bit
+~E 1 "../src/sixteen_bit_multiplexer.vhd" 24 mux_16bit
 ~A 1 "../src/sixteen_bit_multiplexer.vhd" 32 structural
 ~E 1 "../src/one_bit_multiplexer.vhd" 18 mux_1bit
 ~A 1 "../src/one_bit_multiplexer.vhd" 25 structural

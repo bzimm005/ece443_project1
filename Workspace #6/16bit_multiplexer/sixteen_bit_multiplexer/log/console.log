@@ -1,4 +1,5 @@
 # ELBREAD: Elaboration process.
+<<<<<<< HEAD
 # ELBREAD: Error: Architecture 'tb' of entity 'sixteen_bit_multiplexer_TB' not found in library 'sixteen_bit_multiplexer'.
 # ELBREAD: Error: Elaboration process completed with errors.
 # Design: Error: Elaboration failed
@@ -70,6 +71,38 @@ acom -reorder -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_b
 # Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
+=======
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Error: COMP96_0029: Testbench/sixteen_bit_multiplexer_TB.vhd : (53, 22): Expression expected.
+# Error: COMP96_0015: Testbench/sixteen_bit_multiplexer_TB.vhd : (53, 22): ')' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work sixteen_bit_multiplexer -2002  $dsn/src/sixteen_bit_multiplexer.vhd $dsn/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/sixteen_bit_multiplexer.vhd
+# Compile Entity "mux_16bit"
+# Compile Architecture "structural" of Entity "mux_16bit"
+# File: C:/My_Designs/Project1_Fall22/ece443_project1/Workspace #6/16bit_multiplexer/sixteen_bit_multiplexer/src/Testbench/sixteen_bit_multiplexer_TB.vhd
+# Compile Entity "sixteen_bit_multiplexer_TB"
+# Compile Architecture "tb" of Entity "sixteen_bit_multiplexer_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+>>>>>>> 5fb23877bdb1c54e2dc224232d6b3ffa6c806379
 asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
@@ -87,6 +120,7 @@ asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
 # SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
 # SLP: Finished : 0.0 [s]
 # ELAB2: Elaboration final pass complete - time: 0.0 [s].
+<<<<<<< HEAD
 # KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
 # KERNEL: Kernel process initialization done.
@@ -162,3 +196,16 @@ asim -O5 +access +r +m+sixteen_bit_multiplexer_TB sixteen_bit_multiplexer_TB tb
 run @50ns
 # KERNEL: stopped at time: 50 ns
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
+=======
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5173 kB (elbread=256 elab2=4779 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project1_Fall22\ece443_project1\Workspace #6\16bit_multiplexer\sixteen_bit_multiplexer\src\wave.asdb
+#  9:45 PM, Wednesday, October 25, 2023
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+>>>>>>> 5fb23877bdb1c54e2dc224232d6b3ffa6c806379
