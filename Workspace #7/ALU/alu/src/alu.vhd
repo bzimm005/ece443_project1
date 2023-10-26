@@ -39,100 +39,86 @@ end component;
 
 component mux_16bit
 	port (
-  		A, B: in signed(15 downto 0);
-  		S0, S1, S2: in std_logic;
-  		R: out signed(15 downto 0);
-  		r_overflow: out std_logic
-		);
+  		A0, A1, A2, A3, A4, A5, A6, A7 : in signed(15 downto 0);	 --16-bit inputs
+  		sel : in signed(2 downto 0);
+    	result: out signed(15 downto 0)	 --16-bit output  
+  	);
 end component;
 
--- Adder signals
+-- signals
 signal adder_result : signed(15 downto 0);
-
--- Subtractor signals
 signal subtractor_result : signed(15 downto 0);
 signal subtractor_borrow : std_logic;
-
--- Multiplier signals
 signal multiplier_result : signed(31 downto 0);
 signal overflow_result : std_logic;
 
+
 -- Multiplexer signals
-signal mux_A, mux_B: signed(15 downto 0);
+signal mux_A0, mux_A1, mux_A2, mux_A3, mux_A4, mux_A5, mux_A6, mux_A7: signed(15 downto 0);
 signal mux_R: signed(15 downto 0);
-signal mux_S0, mux_S1, mux_S2: std_logic;
 signal mux_overflow: std_logic;
 
-begin
-	adder_inst: entity work.sixteen_bit_adder -- mapping adder
-    port map (
-        A   => A,
-        B   => B,
-        Sum => adder_result
-    );
-	
-	subtractor_inst: sixteen_bit_subtractor -- mapping subtractor
-  	port map (
-    	A => A,
-    	B => B,
-    	D => subtractor_result,
-    	Borrow => subtractor_borrow
-  	);
+signal result : signed(15 downto 0);
 
-    multiplier_inst: sixteen_bit_multiplier -- mapping multiplier
-    port map (
-        A       => A,
-        B       => B,
-        Result  => multiplier_result,
-        Overflow => overflow_result  -- needs proper signal for overflow
-    );
+signal temp : signed(15 downto 0);
+
+begin
+	-- Instantiate components
+    adder_inst: sixteen_bit_adder port map (A => A, B => B, Sum => adder_result);
+    subtractor_inst: sixteen_bit_subtractor port map (A => A, B => B, D => subtractor_result, Borrow => subtractor_borrow);
+    multiplier_inst: sixteen_bit_multiplier port map (A => A, B => B, Result => multiplier_result, Overflow => overflow_result);
 	
-	--mux_inst: mux_16bit	 -- mapping mux
-    --port map (
-    -- A => mux_A,
-    -- B => mux_B,
-    --S0 => mux_S0,
-    --  S1 => mux_S1,
-     -- S2 => mux_S2,
-     -- R => mux_R,
-     -- r_overflow => mux_overflow
-    --);
+	--R <= adder_result;
 	
-	-- Input signals for the multiplexer
-	 -- mux_A <= A;
-	 -- mux_B <= B;
-	 -- mux_S0 <= sel(0);
-	 -- mux_S1 <= sel(1);
-	 -- mux_S2 <= sel(2);
-	  
-	  -- R <= mux_R;
-  	  --status <= mux_overflow & '0' & '0';
-		R <= adder_result;
-	
-	process (sel)
+	process
 	begin
 	   case sel is
 		   when "000" => -- select adder case
 			    report "adder selected";
-                mux_R <= adder_result;
+                result <= adder_result;
             when "001" => -- select multiplier case
 				report "multiplier selected";
-				R <= multiplier_result(15 downto 0);
+				result <= multiplier_result(15 downto 0);
 			when "010" =>	-- passthrough A
 				report "passthrough A selected";
-				R <= A;
+				result <= A;
 			when "011" =>	-- passthrough B
 				report "passthrough B selected";
-				R <= B;
+				result <= B;
 			when "100" => -- select subtractor case
 				report "subtractor selected";
-				R <= subtractor_result;
+				result <= subtractor_result;
             when others =>
 				report "other selected";
-                R <= (others => '0');  -- other cases undefined
+                result <= (others => '0');  -- other cases undefined
         end case;
+		wait;
 	end process;
 	
-	R <= mux_R;
+	--R <= result;
+	
+	-- Status flags logic
+    process (sel, adder_result, subtractor_result, multiplier_result)
+    begin
+        -- init status flags
+        status <= "000";
+
+        -- Check for overflow
+        if sel = "000" then
+            if adder_result(15) /= A(15) and adder_result(15) /= B(15) then
+                status(0) <= '1'; -- Set overflow flag
+            end if;
+        end if;
+
+        -- Check for zero result
+        if result = "0000000000000000" then
+            status(1) <= '1'; -- Set zero flag
+        end if;
+
+        -- Check for negative result
+        if result(15) = '1' then
+            status(2) <= '1'; -- Set negative flag
+        end if;
+    end process;
 
 end architecture structural;

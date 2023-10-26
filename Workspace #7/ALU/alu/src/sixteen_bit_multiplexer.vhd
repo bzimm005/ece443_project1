@@ -19,56 +19,41 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
 entity mux_16bit is
   port (
-    A, B: in std_logic_vector(15 downto 0);	 --16-bit inputs
-    S0, S1, S2: in std_logic;			     --Select input lines
-    R: out std_logic_vector(15 downto 0);	 --16-bit output  
-	r_overflow: out std_logic				 --overflow output
+  A0, A1, A2, A3, A4, A5, A6, A7 : in signed(15 downto 0);	 --16-bit inputs
+  	sel : in signed(2 downto 0);
+    result: out signed(15 downto 0)	 --16-bit output  
   );
 end mux_16bit;
 
 architecture structural of mux_16bit is
-  -- Internal signals
-  signal R_int : std_logic_vector(15 downto 0);
-  signal i: integer;  -- Index for loop
 
 begin
-  -- Generate 16-bit multiplexer logic
-  process(A, B, S0, S1, S2)
-  begin
-    R_int <= (others => '0');  -- Initialize the result to all zeros
-
-    if (S0 = '0' and S1 = '0' and S2 = '0') then
-      R_int <= A;
-    elsif (S0 = '0' and S1 = '0' and S2 = '1') then
-      R_int <= B;
-    elsif (S0 = '0' and S1 = '1' and S2 = '0') then
-      R_int <= A;
-    elsif (S0 = '0' and S1 = '1' and S2 = '1') then
-      R_int <= B;
-    elsif (S0 = '1' and S1 = '0' and S2 = '0') then
-      R_int <= A;
-    end if;
-  end process;
-
-	-- Overflow detection
-	process(a, b, S0, S1, S2)
-	begin	
-		
-		r_overflow <= '0'; -- default to no overflow
-
-		-- Check for all 1s or 0s on inputs and inverted select
-		if (A = x"FFFF" and B = x"FFFF" and S0 = '0') or
-   			(A = x"0000" and B = x"0000" and S0 = '1') then
-    
-  			r_overflow <= '1';
-    	end if;
-
-  end process;
-  
-  -- Assign the result to the output
-  R <= R_int;
-  
+ 
+	process(sel)
+	begin
+	  case sel is
+	    when "000" =>  -- addition
+	      result <= A0;
+	    when "001" =>  -- multiplication
+	      result <= A1;
+	    when "010" =>  -- passthrough A
+	      result <= A2;
+	    when "011" =>  -- passthrough B
+	      result <= A3;
+	    when "100" =>  -- subtraction
+	      result <= A4;
+	    when "101" =>  -- undefined
+	      result <= A5;
+	    when "110" =>  -- undefined
+	      result <= A6;
+	    when "111" =>  -- undefined
+	      result <= A7;
+	    when others =>
+	      result <= (others => '0');
+	  end case;
+	end process;
 end structural;
