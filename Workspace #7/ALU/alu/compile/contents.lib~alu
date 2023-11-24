@@ -1,23 +1,23 @@
-111
-~E 0 "" 0 alu
-~A 0 "" 0 structural
+112
+~E 1 "../src/alu.vhd" 7 alu
+~A 1 "../src/alu.vhd" 15 structural
 ~E 0 "" 0 alu_tb
 ~A 0 "" 0 testbench
-~E 0 "" 0 and_gate
-~A 0 "" 0 structural
-~E 0 "" 0 Full_Adder
-~A 0 "" 0 structural
-~E 0 "" 0 half_adder
-~A 0 "" 0 structural
-~E 0 "" 0 mux_16bit
-~A 0 "" 0 structural
-~E 0 "" 0 sixteen_bit_adder
-~A 0 "" 0 structural
-~E 0 "" 0 sixteen_bit_multiplier
-~A 0 "" 0 Behavioral
-~E 0 "" 0 sixteen_bit_subtractor
-~A 0 "" 0 structural
-~E 0 "" 0 tb_alu
-~A 0 "" 0 test
-~E 0 "" 0 xor_gate
-~A 0 "" 0 structural
+~E 1 "../src/half_adder.vhd" 22 and_gate
+~A 1 "../src/half_adder.vhd" 28 structural
+~E 1 "../src/full_adder.vhd" 32 Full_Adder
+~A 1 "../src/full_adder.vhd" 39 structural
+~E 1 "../src/half_adder.vhd" 52 half_adder
+~A 1 "../src/half_adder.vhd" 60 structural
+~E 1 "../src/sixteen_bit_multiplexer.vhd" 23 mux_16bit
+~A 1 "../src/sixteen_bit_multiplexer.vhd" 31 structural
+~E 1 "../src/sixteen_bit_adder.vhd" 23 sixteen_bit_adder
+~A 1 "../src/sixteen_bit_adder.vhd" 30 structural
+~E 1 "../src/sixteen_bit_multiplier.vhd" 8 sixteen_bit_multiplier
+~A 1 "../src/sixteen_bit_multiplier.vhd" 16 Behavioral
+~E 1 "../src/sixteen_bit_subtractor.vhd" 26 sixteen_bit_subtractor
+~A 1 "../src/sixteen_bit_subtractor.vhd" 34 structural
+~E 1 "../src/Test Bench/alu_TB.vhd" 18 tb_alu
+~A 1 "../src/Test Bench/alu_TB.vhd" 21 test
+~E 1 "../src/half_adder.vhd" 37 xor_gate
+~A 1 "../src/half_adder.vhd" 43 structural

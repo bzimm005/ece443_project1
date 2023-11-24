@@ -68,9 +68,7 @@ begin
     subtractor_inst: sixteen_bit_subtractor port map (A => A, B => B, D => subtractor_result, Borrow => subtractor_borrow);
     multiplier_inst: sixteen_bit_multiplier port map (A => A, B => B, Result => multiplier_result, Overflow => overflow_result);
 	
-	--R <= adder_result;
-	
-	process
+	process (sel, adder_result, multiplier_result, subtractor_result)
 	begin
 	   case sel is
 		   when "000" => -- select adder case
@@ -92,14 +90,9 @@ begin
 				report "other selected";
                 result <= (others => '0');  -- other cases undefined
         end case;
-		wait;
-	end process;
 	
-	R <= result;
-	
-	-- Status flags logic
-    process (sel, adder_result, subtractor_result, multiplier_result)
-    begin
+		R <= result; -- update result
+		
         -- init status flags
         status <= "000";
 
